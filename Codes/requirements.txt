@@ -1,0 +1,40 @@
+# Requirements for the News Scraping and Summarization Project
+
+# --- Core Machine Learning & NLP Libraries ---
+# IMPORTANT: For GPU support, install torch separately BEFORE the rest.
+# Go to https://pytorch.org/get-started/locally/ and get the command for your CUDA version.
+# Example command for CUDA 12.1:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch
+transformers
+sentence_transformers
+scikit-learn
+nltk
+numpy
+
+# --- Web Scraping & Parsing ---
+requests
+beautifulsoup4
+newspaper3k
+lxml # Recommended parser for newspaper3k and beautifulsoup4
+
+# --- Google Gemini API ---
+google-generativeai
+protobuf # Pinning to avoid dependency conflicts
+
+# --- Data Handling & Utilities ---
+pandas
+tqdm
+tldextract
+
+
+bs4
+scikit-learn
+# "lxml[html_clean]"
+lxml_html_clean
+google-generativeai
+dotenv
+google.api_core
+
+
+
