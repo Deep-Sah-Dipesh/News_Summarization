@@ -1,0 +1,2 @@
+# Ignore the mt5 model and all its contents
+**/mt5-base-cnn-summarizer-en-hi*/

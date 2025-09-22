@@ -1,0 +1,53 @@
+2025-09-22 05:32:51,983 [INFO] - --- Starting New Training Run with GPU ---
+2025-09-22 05:32:51,983 [INFO] - Step 2: Starting data loading and preparation.
+2025-09-22 05:32:52,809 [INFO] - Data prepared successfully. Samples: 8854 train, 984 test.
+2025-09-22 05:32:52,809 [INFO] - Step 3: Starting tokenization.
+2025-09-22 05:33:32,510 [INFO] - Tokenization complete.
+2025-09-22 05:33:32,515 [INFO] - Step 4: Initializing Trainer.
+2025-09-22 05:33:45,171 [INFO] - Starting model training on GPU...
+2025-09-22 06:47:19,053 [ERROR] - An unexpected error occurred: piece id is out of range.
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_24448\4115627000.py", line 136, in <module>
+    trainer.train()
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\trainer.py", line 1885, in train
+    return inner_training_loop(
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\trainer.py", line 2311, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\trainer.py", line 2721, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\trainer_seq2seq.py", line 180, in evaluate
+    return super().evaluate(eval_dataset, ignore_keys=ignore_keys, metric_key_prefix=metric_key_prefix)
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\trainer.py", line 3572, in evaluate
+    output = eval_loop(
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\trainer.py", line 3854, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_24448\4115627000.py", line 117, in compute_metrics
+    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\tokenization_utils_base.py", line 3796, in batch_decode
+    return [
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\tokenization_utils_base.py", line 3797, in <listcomp>
+    self.decode(
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\tokenization_utils_base.py", line 3836, in decode
+    return self._decode(
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\tokenization_utils.py", line 1001, in _decode
+    filtered_tokens = self.convert_ids_to_tokens(token_ids, skip_special_tokens=skip_special_tokens)
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\tokenization_utils.py", line 982, in convert_ids_to_tokens
+    tokens.append(self._convert_id_to_token(index))
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\transformers\models\t5\tokenization_t5.py", line 408, in _convert_id_to_token
+    token = self.sp_model.IdToPiece(index)
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\sentencepiece\__init__.py", line 1183, in _batched_func
+    return _func(self, arg)
+  File "c:\Users\admin\anaconda3\envs\news_summarizer\lib\site-packages\sentencepiece\__init__.py", line 1176, in _func
+    raise IndexError('piece id is out of range.')
+IndexError: piece id is out of range.
+2025-09-22 06:47:19,378 [ERROR] - --- Run Failed ---
+2025-09-22 07:33:32,718 [INFO] - Using default tokenizer.
+2025-09-22 08:32:07,485 [INFO] - Using default tokenizer.
+2025-09-22 09:16:36,932 [INFO] - Using default tokenizer.
+2025-09-22 13:56:36,347 [INFO] - --- Starting New Training Run with GPU ---
+2025-09-22 13:56:36,347 [INFO] - Starting data loading and preparation.
+2025-09-22 13:56:37,191 [INFO] - Data prepared. Samples: 8854 train, 984 test.
+2025-09-22 13:56:37,191 [INFO] - Starting tokenization.
+2025-09-22 13:57:16,484 [INFO] - Tokenization complete.
+2025-09-22 13:57:16,484 [INFO] - Initializing Trainer.
+2025-09-22 13:57:27,517 [INFO] - Starting model training on GPU...
