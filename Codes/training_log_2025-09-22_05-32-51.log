@@ -51,3 +51,14 @@ IndexError: piece id is out of range.
 2025-09-22 13:57:16,484 [INFO] - Tokenization complete.
 2025-09-22 13:57:16,484 [INFO] - Initializing Trainer.
 2025-09-22 13:57:27,517 [INFO] - Starting model training on GPU...
+2025-09-22 15:23:25,258 [INFO] - Using default tokenizer.
+2025-09-22 16:46:19,154 [INFO] - Using default tokenizer.
+2025-09-22 18:08:14,071 [INFO] - Using default tokenizer.
+2025-09-22 18:10:39,520 [INFO] - Training finished successfully.
+2025-09-22 18:11:19,955 [INFO] - Model saved to mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-22 18:11:19,955 [INFO] - Performing inference with the trained model.
+2025-09-22 18:11:30,990 [INFO] - --- English Summary ---
+The Indian Space Research Organisation (ISRO) successfully launched its ambitious Mars Orbiter Mission, also known as Mangalyaan, making India the first nation to succeed on its maiden attempt to reach Mars. The low-cost mission, which cost only $74 million, designed to study the Martian atmosphere and surface, sending back valuable data and images. Mangalyaan, a low-cost mission, 
+2025-09-22 18:11:37,738 [INFO] - --- Hindi Summary ---
+इंडिया के स्पेस रिकॉर्डिंग ऑफ ऑस्ट्रेलिया (ISRO) ने अपनी लंबे समय की मॉरिस ओवर्डर मिशन, नांगलीयान, को शुरू कर दिया। इस लड़ाई, जो $74 मिलियन की लागत में $74 मिलियन की लागत में शुरू हुई, ने यह नया अमेरिकी राष्ट्र बन गया। इस लड़ाई, जो $74 मिलियन की लागत में $74 मिलियन की लागत में थी, ने 
+2025-09-22 18:11:37,739 [INFO] - --- Run Completed Successfully ---
