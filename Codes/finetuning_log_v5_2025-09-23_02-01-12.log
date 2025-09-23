@@ -1,0 +1,89 @@
+2025-09-23 02:01:12,927 [INFO] - Loading existing model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 02:01:15,643 [INFO] - Loading new data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 02:01:15,774 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 02:01:16,598 [INFO] - Tokenization complete.
+2025-09-23 02:01:16,600 [INFO] - Initializing Seq2SeqTrainer with compatibility settings...
+2025-09-23 02:01:16,616 [ERROR] - An unexpected error occurred: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_33624\1141615830.py", line 103, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 139, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\transformers\training_args.py", line 1678, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
+2025-09-23 02:02:35,208 [INFO] - Loading existing model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 02:02:38,170 [INFO] - Loading new data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 02:02:38,290 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 02:02:39,205 [INFO] - Tokenization complete.
+2025-09-23 02:02:39,205 [INFO] - Initializing Seq2SeqTrainer with compatibility settings...
+2025-09-23 02:02:39,213 [ERROR] - An unexpected error occurred: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_33624\4235765108.py", line 96, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 139, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\transformers\training_args.py", line 1678, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
+2025-09-23 02:04:12,411 [INFO] - Loading existing model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 02:04:15,275 [INFO] - Loading new data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 02:04:15,412 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 02:04:16,513 [INFO] - Tokenization complete.
+2025-09-23 02:04:16,515 [INFO] - Initializing Seq2SeqTrainer with manual best model selection strategy...
+2025-09-23 02:04:16,516 [ERROR] - An unexpected error occurred: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_33624\3321715494.py", line 133, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-09-23 02:05:09,912 [INFO] - Loading existing model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 02:05:12,814 [INFO] - Loading new data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 02:05:12,940 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 02:05:14,049 [INFO] - Tokenization complete.
+2025-09-23 02:05:14,050 [INFO] - Initializing Seq2SeqTrainer with fully compatible settings...
+2025-09-23 02:05:23,026 [INFO] - Starting continued fine-tuning...
+2025-09-23 02:19:58,275 [INFO] - Fine-tuning finished successfully.
+2025-09-23 02:19:58,275 [ERROR] - Could not find or save the best model due to: [Errno 2] No such file or directory: 'mt5-base-cnn-summarizer-en-hi_v5\\trainer_state.json'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_33624\2965819654.py", line 49, in find_and_save_best_model
+    with open(state_path, "r") as f:
+  File "c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\IPython\core\interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'mt5-base-cnn-summarizer-en-hi_v5\\trainer_state.json'
+2025-09-23 02:41:31,356 [INFO] - Loading existing model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 02:41:34,196 [INFO] - Loading new data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 02:41:34,326 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 02:41:35,387 [INFO] - Tokenization complete.
+2025-09-23 02:41:35,387 [INFO] - Initializing Seq2SeqTrainer with compatible settings...
+2025-09-23 02:41:35,387 [ERROR] - An unexpected error occurred: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_33624\691436688.py", line 99, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 139, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\transformers\training_args.py", line 1678, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
+2025-09-23 02:42:56,163 [INFO] - Loading existing model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 02:42:58,810 [INFO] - Loading new data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 02:42:58,936 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 02:43:00,416 [INFO] - Tokenization complete.
+2025-09-23 02:43:00,416 [INFO] - Initializing Seq2SeqTrainer with manual best model selection strategy...
+2025-09-23 02:43:06,395 [INFO] - Starting continued fine-tuning...
+2025-09-23 03:22:54,662 [INFO] - Fine-tuning finished successfully.
+2025-09-23 03:22:54,662 [ERROR] - Could not find or save the best model due to: [Errno 2] No such file or directory: 'mt5-base-cnn-summarizer-en-hi_v5\\trainer_state.json'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_33624\4155698402.py", line 49, in find_and_save_best_model
+    with open(state_path, "r") as f:
+  File "c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\IPython\core\interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'mt5-base-cnn-summarizer-en-hi_v5\\trainer_state.json'

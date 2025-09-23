@@ -1,0 +1,11 @@
+2025-09-23 01:55:04,336 [INFO] - Loading existing fine-tuned model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 01:55:07,104 [INFO] - Loading new training data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 01:55:07,249 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 01:55:07,249 [INFO] - Tokenizing new dataset...
+2025-09-23 01:55:08,099 [INFO] - Tokenization complete.
+2025-09-23 01:55:08,100 [INFO] - Initializing Seq2SeqTrainer...
+2025-09-23 01:55:08,112 [ERROR] - An unexpected error occurred: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_13776\1083986520.py", line 105, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

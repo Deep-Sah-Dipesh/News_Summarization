@@ -1,0 +1,75 @@
+Loading evaluation metrics...
+Downloading builder script: 
+ 5.20k/? [00:00<00:00, 461kB/s]
+Using default BLEURT-Base checkpoint for sequence maximum length 128. You can use a bigger model for better results with e.g.: evaluate.load('bleurt', 'bleurt-large-512').
+Downloading data: 100%
+ 405M/405M [01:24<00:00, 5.02MB/s]
+WARNING:tensorflow:From c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\bleurt\score.py:160: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\default\downloads\extracted\64a145a740562dda9fae1ce4fb71155ccaf922d41c2355bee049709b8590e973\bleurt-base-128.
+INFO:tensorflow:Config file found, reading.
+INFO:tensorflow:Will load checkpoint bert_custom
+INFO:tensorflow:Loads full paths and checks that files exists.
+INFO:tensorflow:... name:bert_custom
+INFO:tensorflow:... vocab_file:vocab.txt
+INFO:tensorflow:... bert_config_file:bert_config.json
+INFO:tensorflow:... do_lower_case:True
+INFO:tensorflow:... max_seq_length:128
+INFO:tensorflow:Creating BLEURT scorer.
+INFO:tensorflow:Creating WordPiece tokenizer.
+WARNING:tensorflow:From c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\bleurt\lib\bert_tokenization.py:94: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+INFO:tensorflow:WordPiece tokenizer instantiated.
+INFO:tensorflow:Creating Eager Mode predictor.
+INFO:tensorflow:Loading model.
+INFO:tensorflow:BLEURT initialized.
+INFO:tensorflow:BLEURT initialized.
+Downloading builder script: 
+ 7.95k/? [00:00<00:00, 631kB/s]
+Generating summaries for the test set...
+100%
+ 100/100 [09:30<00:00,  5.35s/it]
+
+--- Computing English Metrics ---
+tokenizer_config.json: 100%
+ 25.0/25.0 [00:00<00:00, 2.49kB/s]
+c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\admin\.cache\huggingface\hub\models--roberta-large. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+config.json: 100%
+ 482/482 [00:00<00:00, 62.5kB/s]
+vocab.json: 100%
+ 899k/899k [00:00<00:00, 941kB/s]
+merges.txt: 100%
+ 456k/456k [00:00<00:00, 1.50MB/s]
+tokenizer.json: 100%
+ 1.36M/1.36M [00:01<00:00, 1.09MB/s]
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING:huggingface_hub.file_download:Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+model.safetensors: 100%
+ 1.42G/1.42G [05:58<00:00, 3.97MB/s]
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  ROUGE-2: 17.94
+  BLEURT Score: -0.3045
+  BERTScore Precision: 0.8991
+
+--- Computing Hindi Metrics ---
+tokenizer_config.json: 100%
+ 49.0/49.0 [00:00<00:00, 4.16kB/s]
+c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\admin\.cache\huggingface\hub\models--bert-base-multilingual-cased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+config.json: 100%
+ 625/625 [00:00<00:00, 52.3kB/s]
+vocab.txt: 100%
+ 996k/996k [00:00<00:00, 1.07MB/s]
+tokenizer.json: 100%
+ 1.96M/1.96M [00:00<00:00, 3.34MB/s]
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING:huggingface_hub.file_download:Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+model.safetensors: 100%
+ 714M/714M [03:00<00:00, 4.00MB/s]
+  ROUGE-2: 18.13
+  BLEURT Score: -0.2792
+  BERTScore Precision: 0.7319

@@ -1,0 +1,28 @@
+2025-09-23 01:56:37,271 [INFO] - Loading existing fine-tuned model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 01:56:39,888 [INFO] - Loading new training data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 01:56:40,213 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 01:56:40,213 [INFO] - Tokenizing new dataset...
+2025-09-23 01:56:41,026 [INFO] - Tokenization complete.
+2025-09-23 01:56:41,027 [INFO] - Initializing Seq2SeqTrainer...
+2025-09-23 01:56:41,041 [ERROR] - An unexpected error occurred: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_28776\1083986520.py", line 105, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-09-23 02:00:06,446 [INFO] - Loading existing model from: mt5-base-cnn-summarizer-en-hi_v3/final_model
+2025-09-23 02:00:09,392 [INFO] - Loading new data from: ../Dataset/filtered_articles_CNN.csv
+2025-09-23 02:00:09,519 [INFO] - New data prepared. Samples: 1234 train, 138 test.
+2025-09-23 02:00:10,430 [INFO] - Tokenization complete.
+2025-09-23 02:00:10,430 [INFO] - Initializing Seq2SeqTrainer with compatibility settings...
+2025-09-23 02:00:10,430 [ERROR] - An unexpected error occurred: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_28776\1141615830.py", line 103, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 139, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\transformers\training_args.py", line 1678, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: steps
