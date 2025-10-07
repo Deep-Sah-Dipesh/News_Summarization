@@ -17661,3 +17661,779 @@ NameError: name 'embedding_store' is not defined
 2025-09-18 14:56:31,499 - ERROR - All Gemini API keys are rate-limited.
 2025-09-18 14:56:55,564 - ERROR - All Gemini API keys are rate-limited.
 2025-09-18 14:57:15,832 - ERROR - All Gemini API keys are rate-limited.
+2025-09-29 17:52:51,026 - INFO - Use pytorch device_name: cuda:0
+2025-09-29 17:52:51,026 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-29 17:52:57,965 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/undefined
+2025-09-29 17:53:00,644 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/feed
+2025-09-29 17:53:00,702 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/rss
+2025-09-29 17:53:01,859 - CRITICAL - [REQUEST FAILED] Exceeded 30 redirects.
+2025-09-29 18:14:33,879 - INFO - Use pytorch device_name: cuda:0
+2025-09-29 18:14:33,879 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-29 18:14:40,826 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/undefined
+2025-09-29 18:14:43,088 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/feed
+2025-09-29 18:14:43,231 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/rss
+2025-09-29 18:14:45,573 - CRITICAL - [REQUEST FAILED] Exceeded 30 redirects.
+2025-09-29 21:18:11,992 - WARNING - Newspaper3k failed to get content from https://www.bbc.com/news/regions
+2025-09-29 23:26:28,453 - INFO - Use pytorch device_name: cuda:0
+2025-09-29 23:26:28,453 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-29 23:26:33,381 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/undefined
+2025-09-29 23:26:36,778 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/feed
+2025-09-29 23:26:36,797 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/rss
+2025-09-29 23:26:39,165 - CRITICAL - [REQUEST FAILED] Exceeded 30 redirects.
+2025-09-29 23:26:53,583 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:27:03,151 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:29:13,902 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:29:14,210 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:30:06,978 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:30:08,301 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:30:12,328 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:30:27,800 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:31:52,773 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:32:11,361 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:32:21,987 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:32:25,817 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:32:40,602 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:32:43,579 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:32:48,973 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:33:44,623 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:33:59,033 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:34:15,596 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:34:20,672 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:34:21,030 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:35:30,399 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:35:42,550 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:35:52,009 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:36:07,266 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:36:15,692 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:36:30,226 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:36:37,248 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:36:37,789 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:37:51,431 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:37:57,545 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:38:07,927 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:38:22,952 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:38:35,641 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:38:38,568 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:40:43,133 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:40:51,048 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:40:55,057 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:18,551 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:21,961 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:22,714 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:27,696 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:28,526 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:31,608 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:32,495 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:36,450 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:37,188 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:42,752 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:44,173 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:41:47,111 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:42:54,859 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:42:59,033 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:42:59,539 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:01,595 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:02,299 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:04,603 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:05,228 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:08,651 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:09,201 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:14,748 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:15,779 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:19,052 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:27,686 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:31,952 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:51,678 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:54,044 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:43:54,837 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:00,263 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:00,685 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:23,059 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:23,820 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:25,781 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:26,123 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:29,569 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:39,014 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:44:44,958 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:04,025 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:07,095 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:07,423 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:09,149 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:09,829 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:12,709 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:13,074 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:16,601 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:17,349 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:20,650 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:21,127 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:23,692 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:33,691 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:41,862 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:55,377 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:57,750 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:45:58,296 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:01,512 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:02,097 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:05,549 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:06,420 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:10,406 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:11,085 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:15,267 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:16,324 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:21,138 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:30,022 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:44,744 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:51,835 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:46:55,552 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:47:32,242 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:47:35,557 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:47:36,127 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:47:39,971 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:47:53,496 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:47:54,305 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:47:57,972 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:07,912 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:30,306 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:32,382 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:35,170 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:36,406 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:41,705 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:42,504 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:46,132 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:48:47,477 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:49:05,856 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:49:42,628 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:50:06,160 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:50:18,282 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:50:18,670 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:50:44,898 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:50:45,232 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:50:48,277 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:50:48,765 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:51:09,407 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:51:20,973 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:51:53,260 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:52:40,536 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:52:47,807 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:52:48,156 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:52:51,170 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:52:52,052 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:52:55,274 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:52:58,554 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:53:06,682 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:54:14,821 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:54:15,159 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:54:18,696 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:54:49,907 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:54:55,477 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:54:55,814 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:54:57,783 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:07,402 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:31,870 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:32,817 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:36,358 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:36,861 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:41,909 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:42,289 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:45,546 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:45,929 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:48,599 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:48,980 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:51,903 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:55:52,823 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-29 23:56:03,590 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:00:58,975 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:00:59,328 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:01:12,034 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:01:30,044 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:01:33,341 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:01:33,693 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:01:35,823 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:04:06,925 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:04:07,302 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:04:09,059 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:04:09,441 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:04:31,755 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:05:43,824 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:05:44,133 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:05:47,333 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:05:47,634 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:05:58,712 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:06:02,190 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:06:02,578 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:06:06,083 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:06:06,462 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:07:51,608 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:07:59,099 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:07:59,475 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:08:09,177 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:08:09,526 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:08:15,994 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:09:20,595 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:09:41,290 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:09:51,718 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:09:58,286 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:09:58,629 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:10:08,162 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:10:08,584 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:10:17,824 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 00:10:18,181 - ERROR - An unexpected error occurred with Gemini API: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-09-30 01:30:42,617 - WARNING - Newspaper3k failed to get content from https://www.bbc.com/news/regions
+2025-09-30 02:39:56,468 - ERROR - An unexpected error occurred with Gemini API: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 1.
+2025-09-30 03:49:27,169 - INFO - Use pytorch device_name: cuda:0
+2025-09-30 03:49:27,169 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-30 03:49:31,812 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/undefined
+2025-09-30 03:49:33,668 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/rss
+2025-09-30 03:49:34,445 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/feed
+2025-09-30 03:49:35,786 - CRITICAL - [REQUEST FAILED] Exceeded 30 redirects.
+2025-09-30 06:15:32,474 - WARNING - Newspaper3k failed to get content from https://www.bbc.com/news/regions
+2025-09-30 14:37:40,980 - INFO - Use pytorch device_name: cuda:0
+2025-09-30 14:37:40,980 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-30 14:37:47,222 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/undefined
+2025-09-30 14:37:48,710 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/feed
+2025-09-30 14:37:48,758 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/rss
+2025-09-30 14:37:51,231 - CRITICAL - [REQUEST FAILED] Exceeded 30 redirects.
+2025-09-30 16:56:07,183 - WARNING - Newspaper3k failed to get content from https://www.bbc.com/news/regions
+2025-09-30 18:08:44,971 - ERROR - An unexpected error occurred with Gemini API: 504 The request timed out. Please try again.
+2025-09-30 18:58:15,126 - ERROR - An unexpected error occurred with Gemini API: Timeout of 600.0s exceeded, last exception: 503 The model is overloaded. Please try again later.
+2025-09-30 19:24:48,456 - ERROR - An unexpected error occurred with Gemini API: 504 The request timed out. Please try again.
+2025-09-30 19:34:47,203 - ERROR - An unexpected error occurred with Gemini API: 504 The request timed out. Please try again.
+2025-09-30 20:19:16,353 - ERROR - Error scraping https://www.bbc.com/mediacentre/mediapacks/the-celebrity-traitors-contestants-claudia-winkleman: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 180, in summarize_with_bart
+    summary_ids = bart_model.generate(
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\transformers\generation\utils.py", line 2551, in generate
+    result = self._beam_search(
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\transformers\generation\utils.py", line 3366, in _beam_search
+    log_probs = nn.functional.log_softmax(logits, dim=-1)
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\torch\nn\functional.py", line 2248, in log_softmax
+    ret = input.log_softmax(dim)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:17,697 - ERROR - Error scraping https://www.bbc.com/news/articles/c5y5qllgpgzo: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:18,402 - ERROR - Error scraping https://www.bbc.com/news/articles/c79vxq8l9njo: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:20,146 - ERROR - Error scraping https://www.bbc.com/reel/video/p0lgwc9h/clever-baby-otter-uses-rock-to-open-mussel: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:21,080 - ERROR - Error scraping https://www.bbc.com/reel/video/p0m1w8v5/a-visit-to-niigata-japan-s-kingdom-of-sake: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:21,528 - ERROR - Error scraping https://www.bbc.com/news/articles/cdxqdy5nrlqo: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:22,508 - ERROR - Error scraping https://www.bbc.com/news/articles/c07vx7z0jgdo: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:22,857 - ERROR - Error scraping https://www.bbc.com/news/articles/cpq51xp4e91o: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:23,976 - ERROR - Error scraping https://www.bbc.com/reel/video/p0b5x2z7/is-a-vegan-diet-healthier-than-eating-meat-and-dairy-: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:24,440 - ERROR - Error scraping https://www.bbc.com/reel/video/p0m21nrw/meeting-mischief-the-mermaid-of-cornwall: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:25,199 - ERROR - Error scraping https://www.bbc.com/news/articles/cn0r8y72y86o: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:26,426 - ERROR - Error scraping https://www.bbc.com/future/article/20250923-the-3000-year-old-story-hidden-in-your-keyboard: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:27,239 - ERROR - Error scraping https://www.bbc.com/travel/article/20250909-kvikk-lunsj-the-controversial-sweet-that-fuels-norwegians: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:28,306 - ERROR - Error scraping https://www.bbc.com/reel/video/p078jqhl/otherworldly-photos-of-an-arctic-city: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:29,306 - ERROR - Error scraping https://www.bbc.com/culture/article/20250619-the-best-books-of-2025: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:30,610 - ERROR - Error scraping https://www.bbc.com/culture/article/20240926-could-amadeus-be-the-most-misunderstood-oscar-winner-ever: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:31,769 - ERROR - Error scraping https://www.bbc.com/reel/video/p0h4hbs4/how-industry-leaders-transformed-their-career: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:33,276 - ERROR - Error scraping https://www.bbc.com/future/article/20250821-why-a-brazilian-favela-facing-eviction-went-green-with-gardening: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:34,086 - ERROR - Error scraping https://www.bbc.com/news/articles/cre5xp83394o#comments: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:35,195 - ERROR - Error scraping https://www.bbc.com/reel/video/p0hxbksd/astronaut-peggy-whitson-how-space-changed-my-body: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:36,379 - ERROR - Error scraping https://www.bbc.com/news/uk-england-norfolk-43850228: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:37,528 - ERROR - Error scraping https://www.bbc.com/reel/video/p0k68s2t/exploring-japan-s-ancient-tradition-of-lacquerware: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:38,598 - ERROR - Error scraping https://www.bbc.com/reel/video/p0j8gcmv/tutankhamun-the-first-ever-view-inside-the-tomb: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:39,640 - ERROR - Error scraping https://www.bbc.com/audio/category/news: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:40,596 - ERROR - Error scraping https://www.bbc.com/reel/video/p0kx88wb/can-technology-help-reduce-parkinson-s-symptoms-: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:41,790 - ERROR - Error scraping https://www.bbc.com/culture/article/20250923-the-glitch-in-super-mario-bros-that-obsessed-gamers: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:42,707 - ERROR - Error scraping https://www.bbc.com/news/northern_ireland/northern_ireland_politics: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:43,540 - ERROR - Error scraping https://www.bbc.com/reel/video/p0lfjb5v/watch-a-bat-s-unusual-encounter-with-a-pitcher-plant: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:44,830 - ERROR - Error scraping https://www.bbc.com/news/articles/c749v5jn3g5o: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:45,993 - ERROR - Error scraping https://www.bbc.com/reel/video/p0lwj22t/meet-wasteshark-the-aquatic-drone-cleaning-up-waterways: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:47,392 - ERROR - Error scraping https://www.bbc.com/travel/article/20250924-dubrovniks-bold-fight-against-overtourism: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:48,213 - ERROR - Error scraping https://www.bbc.com/reel/video/p0lqtqp4/high-tech-tools-cracking-the-case-of-chile-s-lost-children: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:49,138 - ERROR - Error scraping https://www.bbc.com/news/world/australia: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:49,843 - ERROR - Error scraping https://www.bbc.com/reel/video/p0lwmvyr/the-hybrid-human-neanderthal-fossils-that-shocked-scientists: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-30 20:19:50,699 - ERROR - Error scraping https://www.bbc.com/reel/video/p0m14x44/why-the-us-is-going-back-to-the-moon-after-50-years: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 248, in scrape_url
+    bart_summary = summarize_with_bart(content)
+  File "H:\News_Summarization\Codes\dataset.py", line 178, in summarize_with_bart
+    input_ids = inputs.input_ids.to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-10-01 00:49:39,310 - INFO - Use pytorch device_name: cuda:0
+2025-10-01 00:49:39,310 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 00:49:47,538 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/undefined
+2025-10-01 00:49:48,751 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/rss
+2025-10-01 00:49:48,964 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/feed
+2025-10-01 00:49:51,419 - CRITICAL - [REQUEST FAILED] Exceeded 30 redirects.
+2025-10-01 06:10:14,339 - WARNING - Newspaper3k failed to get content from https://www.bbc.com/news/regions
+2025-10-01 06:14:10,995 - ERROR - Error scraping https://www.bbc.com/reel/video/p0hkd63f/the-moment-a-python-is-captured: Article `download()` failed with HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=7) on URL https://www.bbc.com/reel/video/p0hkd63f/the-moment-a-python-is-captured
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 236, in scrape_url
+    article.parse()
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=7) on URL https://www.bbc.com/reel/video/p0hkd63f/the-moment-a-python-is-captured
+2025-10-01 14:32:22,528 - INFO - Use pytorch device_name: cuda:0
+2025-10-01 14:32:22,612 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 14:32:29,291 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/undefined
+2025-10-01 14:32:30,843 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/feed
+2025-10-01 14:32:31,050 - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.bbc.com/rss
+2025-10-01 14:32:37,700 - CRITICAL - [REQUEST FAILED] Exceeded 30 redirects.
+2025-10-01 14:38:38,478 - ERROR - Error scraping https://www.bbc.com/reel/video/p0ljxvlq/the-science-behind-brewing-tastier-non-alcoholic-beer: Article `download()` failed with HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=7) on URL https://www.bbc.com/reel/video/p0ljxvlq/the-science-behind-brewing-tastier-non-alcoholic-beer
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 236, in scrape_url
+    article.parse()
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=7) on URL https://www.bbc.com/reel/video/p0ljxvlq/the-science-behind-brewing-tastier-non-alcoholic-beer
+2025-10-01 15:47:26,833 - WARNING - Newspaper3k failed to get content from https://www.bbc.com/news/regions
+2025-10-01 16:57:48,506 - ERROR - Error scraping https://www.bbc.com/news/articles/c5y4xl5x8q7o: Article `download()` failed with HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=7) on URL https://www.bbc.com/news/articles/c5y4xl5x8q7o
+Traceback (most recent call last):
+  File "H:\News_Summarization\Codes\dataset.py", line 236, in scrape_url
+    article.parse()
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=7) on URL https://www.bbc.com/news/articles/c5y4xl5x8q7o

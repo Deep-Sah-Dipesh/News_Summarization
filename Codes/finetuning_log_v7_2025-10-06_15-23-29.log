@@ -1,0 +1,15 @@
+2025-10-06 15:23:29,211 [INFO] - --- Performing Pre-Run Checks ---
+2025-10-06 15:23:29,359 [INFO] - --- All pre-run checks passed. ---
+2025-10-06 15:24:23,860 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_20700\4255128655.py", line 176, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-10-06 15:35:41,318 [INFO] - --- Performing Pre-Run Checks ---
+2025-10-06 15:35:41,483 [INFO] - --- All pre-run checks passed. ---
+2025-10-06 15:35:53,512 [WARNING] - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-06 15:36:25,362 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_20700\1377580694.py", line 167, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

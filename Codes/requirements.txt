@@ -37,4 +37,21 @@ dotenv
 google.api_core
 
 
+# Core AI and Machine Learning
+torch
+transformers
+sentence-transformers
+nltk
 
+# Google Gemini API
+google-generativeai
+
+# Web Scraping and Parsing
+newspaper3k
+beautifulsoup4
+requests
+tldextract
+
+# Utilities
+python-dotenv
+tqdm

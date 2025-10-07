@@ -40,13 +40,13 @@ print(f"Using device: {device}")
 
 # --- API Key Configuration ---
 GEMINI_API_KEYS = [
-    # os.getenv("GEMINI_API_KEY_1"),
-    # os.getenv("GEMINI_API_KEY_2"),
-    # os.getenv("GEMINI_API_KEY_3"),
-    # os.getenv("GEMINI_API_KEY_4"),
-    # os.getenv("GEMINI_API_KEY_5"),
-    # os.getenv("GEMINI_API_KEY_6"),
-    # os.getenv("GEMINI_API_KEY_7"),
+    os.getenv("GEMINI_API_KEY_1"),
+    os.getenv("GEMINI_API_KEY_2"),
+    os.getenv("GEMINI_API_KEY_3"),
+    os.getenv("GEMINI_API_KEY_4"),
+    os.getenv("GEMINI_API_KEY_5"),
+    os.getenv("GEMINI_API_KEY_6"),
+    os.getenv("GEMINI_API_KEY_7"),
     os.getenv("GEMINI_API_KEY_8"),
     os.getenv("GEMINI_API_KEY_9"),
     os.getenv("GEMINI_API_KEY_10"),
@@ -61,6 +61,18 @@ GEMINI_API_KEYS = [
     os.getenv("GEMINI_API_KEY_19"),
     os.getenv("GEMINI_API_KEY_20"),
     os.getenv("GEMINI_API_KEY_21"),
+    os.getenv("GEMINI_API_KEY_22"),
+    os.getenv("GEMINI_API_KEY_23"),
+    os.getenv("GEMINI_API_KEY_24"),
+    os.getenv("GEMINI_API_KEY_25"),
+    os.getenv("GEMINI_API_KEY_26"),
+    os.getenv("GEMINI_API_KEY_27"),
+    os.getenv("GEMINI_API_KEY_28"),
+    os.getenv("GEMINI_API_KEY_29"),
+    os.getenv("GEMINI_API_KEY_30"),
+    os.getenv("GEMINI_API_KEY_31"),
+    os.getenv("GEMINI_API_KEY_32"),
+    os.getenv("GEMINI_API_KEY_33"),
     # ... add all your keys here ...
 ]
 GEMINI_API_KEYS = [key for key in GEMINI_API_KEYS if key is not None]
@@ -74,7 +86,7 @@ def get_gemini_model():
     next_key = next(key_cycler)
     print(f"--- Using Gemini API key ending in: ...{next_key[-4:]}")
     genai.configure(api_key=next_key)
-    return genai.GenerativeModel("models/gemini-1.5-flash")
+    return genai.GenerativeModel("models/gemini-2.5-flash")
 
 # --- Model Loading ---
 print("Loading models...")
@@ -84,7 +96,7 @@ sentence_encoder = SentenceTransformer("all-MiniLM-L6-v2").to(device)
 print("Models loaded.")
 
 # --- File Paths ---
-CSV_PATH = 'scraped_articles.csv'
+CSV_PATH = 'scraped_articles_new.csv'
 TOKEN_LIMIT = 512
 existing_article_ids = set()
 try:
@@ -263,9 +275,9 @@ if __name__ == '__main__':
         # "https://www.bbc.com/culture",
         # "https://www.bbc.com/arts",
         # "https://www.bbc.com/travel",
-        "https://www.bbc.com/future-planet",
+        # "https://www.bbc.com/future-planet",
         # "https://www.bbc.com/news/topics/c2vdnvdg6xxt",
-        # "https://www.bbc.com/news/war-in-ukraine",
+        "https://www.bbc.com/news/war-in-ukraine",
         # "https://www.bbc.com/news/world/latin_america"
         # Add more section URLs as needed
     ]

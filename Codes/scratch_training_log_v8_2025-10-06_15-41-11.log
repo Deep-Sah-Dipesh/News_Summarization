@@ -1,0 +1,15 @@
+2025-10-06 15:41:11,281 [INFO] - --- Performing Pre-Run Checks ---
+2025-10-06 15:41:11,315 [INFO] - --- All pre-run checks passed. ---
+2025-10-06 15:41:25,180 [WARNING] - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-06 15:41:48,397 [ERROR] - An unexpected error occurred during the main process: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_20512\3976948831.py", line 167, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 139, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env\lib\site-packages\transformers\training_args.py", line 1678, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
