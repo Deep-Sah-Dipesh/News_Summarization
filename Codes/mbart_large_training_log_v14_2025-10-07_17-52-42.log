@@ -1,0 +1,57 @@
+2025-10-07 17:52:51,890 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 17:52:53,581 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 17:52:55,018 [ERROR] - An unexpected error occurred during the main process: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_21600\3285876777.py", line 115, in main
+    tokenized_datasets = final_datasets.map(tokenize_function, batched=True, remove_columns=['article', 'summary'])
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\datasets\dataset_dict.py", line 954, in map
+    dataset_dict[split] = dataset.map(
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\datasets\arrow_dataset.py", line 562, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\datasets\arrow_dataset.py", line 3327, in map
+    for rank, done, content in Dataset._map_single(**unprocessed_kwargs):
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\datasets\arrow_dataset.py", line 3683, in _map_single
+    for i, batch in iter_outputs(shard_iterable):
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\datasets\arrow_dataset.py", line 3633, in iter_outputs
+    yield i, apply_function(example, i, offset=offset)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\datasets\arrow_dataset.py", line 3556, in apply_function
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_21600\3285876777.py", line 109, in tokenize_function
+    with tokenizer.as_target_tokenizer():
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\tokenization_utils_base.py", line 4039, in as_target_tokenizer
+    self._switch_to_target_mode()
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\models\mbart50\tokenization_mbart50_fast.py", line 194, in _switch_to_target_mode
+    return self.set_tgt_lang_special_tokens(self.tgt_lang)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\models\mbart50\tokenization_mbart50_fast.py", line 213, in set_tgt_lang_special_tokens
+    self.cur_lang_code_id = self.convert_tokens_to_ids(tgt_lang)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\tokenization_utils_fast.py", line 368, in convert_tokens_to_ids
+    return [self._convert_token_to_id_with_added_voc(token) for token in tokens]
+TypeError: 'NoneType' object is not iterable
+2025-10-07 17:54:50,975 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 17:54:52,552 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 17:55:44,403 [WARNING] - From c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\bleurt\score.py:160: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+2025-10-07 17:55:44,403 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 17:55:44,420 [INFO] - Config file found, reading.
+2025-10-07 17:55:44,420 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 17:55:44,420 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 17:55:44,420 [INFO] - ... name:BLEURT-20
+2025-10-07 17:55:44,432 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 17:55:44,436 [INFO] - ... max_seq_length:512
+2025-10-07 17:55:44,438 [INFO] - ... vocab_file:None
+2025-10-07 17:55:44,440 [INFO] - ... do_lower_case:None
+2025-10-07 17:55:44,442 [INFO] - ... sp_model:sent_piece
+2025-10-07 17:55:44,445 [INFO] - ... dynamic_seq_length:True
+2025-10-07 17:55:44,448 [INFO] - Creating BLEURT scorer.
+2025-10-07 17:55:44,450 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 17:55:44,453 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 17:55:44,455 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 17:55:44,941 [INFO] - SentencePiece tokenizer created.
+2025-10-07 17:55:44,941 [INFO] - Creating Eager Mode predictor.
+2025-10-07 17:55:44,941 [INFO] - Loading model.
+2025-10-07 17:55:51,390 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 17:55:51,391 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 17:55:51,400 [INFO] - BLEURT initialized.
+2025-10-07 17:55:51,572 [INFO] - Starting final training (v14) from scratch with mBART-LARGE...

@@ -1,0 +1,334 @@
+2025-10-07 13:52:25,380 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 13:52:26,888 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 13:56:10,230 [WARNING] - From c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\bleurt\score.py:160: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+2025-10-07 13:56:10,230 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 13:56:10,246 [INFO] - Config file found, reading.
+2025-10-07 13:56:10,246 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 13:56:10,246 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 13:56:10,246 [INFO] - ... name:BLEURT-20
+2025-10-07 13:56:10,246 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 13:56:10,246 [INFO] - ... max_seq_length:512
+2025-10-07 13:56:10,246 [INFO] - ... vocab_file:None
+2025-10-07 13:56:10,246 [INFO] - ... do_lower_case:None
+2025-10-07 13:56:10,259 [INFO] - ... sp_model:sent_piece
+2025-10-07 13:56:10,261 [INFO] - ... dynamic_seq_length:True
+2025-10-07 13:56:10,262 [INFO] - Creating BLEURT scorer.
+2025-10-07 13:56:10,263 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 13:56:10,265 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 13:56:10,266 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 13:56:10,750 [INFO] - SentencePiece tokenizer created.
+2025-10-07 13:56:10,750 [INFO] - Creating Eager Mode predictor.
+2025-10-07 13:56:10,750 [INFO] - Loading model.
+2025-10-07 13:56:16,705 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 13:56:16,705 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 13:56:16,712 [INFO] - BLEURT initialized.
+2025-10-07 13:56:16,742 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\3186982528.py", line 134, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-10-07 14:01:11,898 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:01:13,455 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:02:43,765 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:02:43,768 [INFO] - Config file found, reading.
+2025-10-07 14:02:43,770 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:02:43,771 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:02:43,772 [INFO] - ... name:BLEURT-20
+2025-10-07 14:02:43,774 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:02:43,775 [INFO] - ... max_seq_length:512
+2025-10-07 14:02:43,776 [INFO] - ... vocab_file:None
+2025-10-07 14:02:43,778 [INFO] - ... do_lower_case:None
+2025-10-07 14:02:43,779 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:02:43,781 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:02:43,782 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:02:43,784 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:02:43,786 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:02:43,786 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:02:44,241 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:02:44,243 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:02:44,244 [INFO] - Loading model.
+2025-10-07 14:02:50,274 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:02:50,274 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:02:50,283 [INFO] - BLEURT initialized.
+2025-10-07 14:02:50,285 [ERROR] - An unexpected error occurred during the main process: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\3141051723.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 140, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\training_args.py", line 1689, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+2025-10-07 14:06:23,883 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:06:25,464 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:07:51,545 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:07:51,547 [INFO] - Config file found, reading.
+2025-10-07 14:07:51,550 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:07:51,551 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:07:51,552 [INFO] - ... name:BLEURT-20
+2025-10-07 14:07:51,553 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:07:51,555 [INFO] - ... max_seq_length:512
+2025-10-07 14:07:51,557 [INFO] - ... vocab_file:None
+2025-10-07 14:07:51,557 [INFO] - ... do_lower_case:None
+2025-10-07 14:07:51,558 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:07:51,562 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:07:51,563 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:07:51,564 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:07:51,565 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:07:51,567 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:07:51,997 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:07:52,000 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:07:52,002 [INFO] - Loading model.
+2025-10-07 14:07:57,542 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:07:57,543 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:07:57,547 [INFO] - BLEURT initialized.
+2025-10-07 14:07:57,547 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\3580381250.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-10-07 14:32:00,016 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:32:01,533 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:33:31,016 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:33:31,016 [INFO] - Config file found, reading.
+2025-10-07 14:33:31,016 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:33:31,016 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:33:31,016 [INFO] - ... name:BLEURT-20
+2025-10-07 14:33:31,016 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:33:31,016 [INFO] - ... max_seq_length:512
+2025-10-07 14:33:31,033 [INFO] - ... vocab_file:None
+2025-10-07 14:33:31,033 [INFO] - ... do_lower_case:None
+2025-10-07 14:33:31,033 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:33:31,036 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:33:31,038 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:33:31,040 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:33:31,042 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:33:31,043 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:33:31,504 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:33:31,504 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:33:31,504 [INFO] - Loading model.
+2025-10-07 14:33:36,626 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:33:36,627 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:33:36,636 [INFO] - BLEURT initialized.
+2025-10-07 14:33:36,637 [ERROR] - An unexpected error occurred during the main process: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\504785384.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 140, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\training_args.py", line 1689, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+2025-10-07 14:35:24,003 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:35:25,500 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:36:54,940 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:36:54,940 [INFO] - Config file found, reading.
+2025-10-07 14:36:54,950 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:36:54,950 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:36:54,950 [INFO] - ... name:BLEURT-20
+2025-10-07 14:36:54,950 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:36:54,950 [INFO] - ... max_seq_length:512
+2025-10-07 14:36:54,950 [INFO] - ... vocab_file:None
+2025-10-07 14:36:54,950 [INFO] - ... do_lower_case:None
+2025-10-07 14:36:54,961 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:36:54,962 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:36:54,964 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:36:54,965 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:36:54,967 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:36:54,969 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:36:55,414 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:36:55,414 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:36:55,417 [INFO] - Loading model.
+2025-10-07 14:37:00,850 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:37:00,850 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:37:00,856 [INFO] - BLEURT initialized.
+2025-10-07 14:37:00,863 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\3156557610.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-10-07 14:39:12,167 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:39:13,700 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:40:43,750 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:40:43,750 [INFO] - Config file found, reading.
+2025-10-07 14:40:43,750 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:40:43,750 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:40:43,750 [INFO] - ... name:BLEURT-20
+2025-10-07 14:40:43,750 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:40:43,750 [INFO] - ... max_seq_length:512
+2025-10-07 14:40:43,750 [INFO] - ... vocab_file:None
+2025-10-07 14:40:43,767 [INFO] - ... do_lower_case:None
+2025-10-07 14:40:43,768 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:40:43,770 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:40:43,771 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:40:43,773 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:40:43,774 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:40:43,775 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:40:44,234 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:40:44,234 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:40:44,234 [INFO] - Loading model.
+2025-10-07 14:40:50,217 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:40:50,217 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:40:50,234 [INFO] - BLEURT initialized.
+2025-10-07 14:40:50,234 [ERROR] - An unexpected error occurred during the main process: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\504785384.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 140, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\training_args.py", line 1689, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+2025-10-07 14:42:57,585 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:42:59,133 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:44:28,369 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:44:28,381 [INFO] - Config file found, reading.
+2025-10-07 14:44:28,381 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:44:28,381 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:44:28,381 [INFO] - ... name:BLEURT-20
+2025-10-07 14:44:28,381 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:44:28,381 [INFO] - ... max_seq_length:512
+2025-10-07 14:44:28,381 [INFO] - ... vocab_file:None
+2025-10-07 14:44:28,381 [INFO] - ... do_lower_case:None
+2025-10-07 14:44:28,394 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:44:28,396 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:44:28,396 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:44:28,398 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:44:28,400 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:44:28,401 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:44:28,835 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:44:28,835 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:44:28,848 [INFO] - Loading model.
+2025-10-07 14:44:34,474 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:44:34,474 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:44:34,491 [INFO] - BLEURT initialized.
+2025-10-07 14:44:34,491 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\3156557610.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-10-07 14:46:39,273 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:46:40,788 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:48:09,780 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:48:09,784 [INFO] - Config file found, reading.
+2025-10-07 14:48:09,786 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:48:09,786 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:48:09,786 [INFO] - ... name:BLEURT-20
+2025-10-07 14:48:09,786 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:48:09,786 [INFO] - ... max_seq_length:512
+2025-10-07 14:48:09,786 [INFO] - ... vocab_file:None
+2025-10-07 14:48:09,786 [INFO] - ... do_lower_case:None
+2025-10-07 14:48:09,797 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:48:09,799 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:48:09,800 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:48:09,802 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:48:09,803 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:48:09,804 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:48:10,241 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:48:10,241 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:48:10,251 [INFO] - Loading model.
+2025-10-07 14:48:15,840 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:48:15,840 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:48:15,851 [INFO] - BLEURT initialized.
+2025-10-07 14:48:15,851 [ERROR] - An unexpected error occurred during the main process: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\296122217.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+  File "<string>", line 140, in __init__
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\training_args.py", line 1689, in __post_init__
+    raise ValueError(
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: no
+- Save strategy: epoch
+2025-10-07 14:51:28,651 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:51:30,154 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:53:00,385 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:53:00,392 [INFO] - Config file found, reading.
+2025-10-07 14:53:00,392 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:53:00,392 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:53:00,392 [INFO] - ... name:BLEURT-20
+2025-10-07 14:53:00,392 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:53:00,401 [INFO] - ... max_seq_length:512
+2025-10-07 14:53:00,403 [INFO] - ... vocab_file:None
+2025-10-07 14:53:00,404 [INFO] - ... do_lower_case:None
+2025-10-07 14:53:00,405 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:53:00,405 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:53:00,409 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:53:00,410 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:53:00,412 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:53:00,413 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:53:00,859 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:53:00,868 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:53:00,868 [INFO] - Loading model.
+2025-10-07 14:53:05,931 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:53:05,934 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:53:05,935 [INFO] - BLEURT initialized.
+2025-10-07 14:53:05,944 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\24213409.py", line 130, in main
+    training_args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-10-07 14:55:05,985 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 14:55:07,535 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 14:56:37,740 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 14:56:37,740 [INFO] - Config file found, reading.
+2025-10-07 14:56:37,740 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 14:56:37,751 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 14:56:37,752 [INFO] - ... name:BLEURT-20
+2025-10-07 14:56:37,753 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 14:56:37,753 [INFO] - ... max_seq_length:512
+2025-10-07 14:56:37,753 [INFO] - ... vocab_file:None
+2025-10-07 14:56:37,753 [INFO] - ... do_lower_case:None
+2025-10-07 14:56:37,760 [INFO] - ... sp_model:sent_piece
+2025-10-07 14:56:37,761 [INFO] - ... dynamic_seq_length:True
+2025-10-07 14:56:37,762 [INFO] - Creating BLEURT scorer.
+2025-10-07 14:56:37,764 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:56:37,766 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 14:56:37,766 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 14:56:38,217 [INFO] - SentencePiece tokenizer created.
+2025-10-07 14:56:38,217 [INFO] - Creating Eager Mode predictor.
+2025-10-07 14:56:38,217 [INFO] - Loading model.
+2025-10-07 14:56:43,234 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 14:56:43,234 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 14:56:43,234 [INFO] - BLEURT initialized.
+2025-10-07 14:56:46,255 [INFO] - Starting final training from scratch with FLAN-T5-LARGE...
+2025-10-07 16:45:47,407 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 16:45:48,924 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 16:47:17,957 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 16:47:17,957 [INFO] - Config file found, reading.
+2025-10-07 16:47:17,957 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 16:47:17,957 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 16:47:17,957 [INFO] - ... name:BLEURT-20
+2025-10-07 16:47:17,957 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 16:47:17,957 [INFO] - ... max_seq_length:512
+2025-10-07 16:47:17,957 [INFO] - ... vocab_file:None
+2025-10-07 16:47:17,957 [INFO] - ... do_lower_case:None
+2025-10-07 16:47:17,973 [INFO] - ... sp_model:sent_piece
+2025-10-07 16:47:17,974 [INFO] - ... dynamic_seq_length:True
+2025-10-07 16:47:17,976 [INFO] - Creating BLEURT scorer.
+2025-10-07 16:47:17,977 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 16:47:17,978 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 16:47:17,980 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 16:47:18,448 [INFO] - SentencePiece tokenizer created.
+2025-10-07 16:47:18,451 [INFO] - Creating Eager Mode predictor.
+2025-10-07 16:47:18,452 [INFO] - Loading model.
+2025-10-07 16:47:23,798 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 16:47:23,798 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 16:47:23,807 [INFO] - BLEURT initialized.
+2025-10-07 16:47:23,807 [ERROR] - An unexpected error occurred during the main process: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_15280\1040060851.py", line 127, in main
+    training__args = Seq2SeqTrainingArguments(
+TypeError: Seq2SeqTrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

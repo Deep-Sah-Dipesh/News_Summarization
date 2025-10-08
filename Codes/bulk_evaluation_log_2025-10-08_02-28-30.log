@@ -1,0 +1,6 @@
+2025-10-08 02:28:31,001 [INFO] - --- Starting Bulk Evaluation with Custom Inference Loop ---
+2025-10-08 02:28:31,001 [INFO] - Loading model from: mbart-large-50-cnn-summarizer-v14/final_model
+2025-10-08 02:28:33,938 [INFO] - Loading evaluation data from: ../Dataset/filtered_articles_CNN.csv
+2025-10-08 02:28:34,118 [WARNING] - Using a subset of 200 examples for quick evaluation.
+2025-10-08 02:28:34,118 [INFO] - Evaluation data prepared with 200 examples.
+2025-10-08 02:28:34,118 [INFO] - Generating summaries for the dataset...

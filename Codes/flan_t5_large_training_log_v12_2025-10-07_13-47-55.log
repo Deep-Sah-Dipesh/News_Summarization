@@ -1,0 +1,22 @@
+2025-10-07 13:47:59,207 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 13:48:00,696 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 13:49:21,748 [WARNING] - Using the latest cached version of the module from C:\Users\admin\.cache\huggingface\modules\evaluate_modules\metrics\evaluate-metric--rouge\b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886 (last modified on Mon Sep 22 02:31:04 2025) since it couldn't be found locally at evaluate-metric--rouge, or remotely on the Hugging Face Hub.
+2025-10-07 13:49:22,049 [ERROR] - An unexpected error occurred during the main process: No module named 'rouge_score'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_3992\3186982528.py", line 109, in main
+    rouge_metric = evaluate.load("rouge")
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\evaluate\loading.py", line 751, in load
+    evaluation_cls = import_main_class(evaluation_module.module_path)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\evaluate\loading.py", line 76, in import_main_class
+    module = importlib.import_module(module_path)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\admin\.cache\huggingface\modules\evaluate_modules\metrics\evaluate-metric--rouge\b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886\rouge.py", line 22, in <module>
+    from rouge_score import rouge_scorer, scoring
+ModuleNotFoundError: No module named 'rouge_score'

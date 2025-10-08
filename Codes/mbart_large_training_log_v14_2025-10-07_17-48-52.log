@@ -1,0 +1,17 @@
+2025-10-07 17:48:57,368 [ERROR] - An unexpected error occurred during the main process: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_7320\3285876777.py", line 63, in main
+    model = MBartForConditionalGeneration.from_pretrained(BASE_MODEL_PATH)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\modeling_utils.py", line 277, in _wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\modeling_utils.py", line 5051, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\modeling_utils.py", line 5319, in _load_pretrained_model
+    load_state_dict(checkpoint_files[0], map_location="meta", weights_only=weights_only).keys()
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\modeling_utils.py", line 508, in load_state_dict
+    check_torch_load_is_safe()
+  File "c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\transformers\utils\import_utils.py", line 1647, in check_torch_load_is_safe
+    raise ValueError(
+ValueError: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434

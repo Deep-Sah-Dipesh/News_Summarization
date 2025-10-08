@@ -1,0 +1,26 @@
+2025-10-07 19:03:35,014 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 19:03:36,593 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 19:04:26,677 [WARNING] - From c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\score.py:160: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+2025-10-07 19:04:26,677 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 19:04:26,977 [INFO] - Config file found, reading.
+2025-10-07 19:04:26,986 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 19:04:26,986 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 19:04:26,986 [INFO] - ... name:BLEURT-20
+2025-10-07 19:04:26,986 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 19:04:26,993 [INFO] - ... max_seq_length:512
+2025-10-07 19:04:26,996 [INFO] - ... vocab_file:None
+2025-10-07 19:04:26,997 [INFO] - ... do_lower_case:None
+2025-10-07 19:04:26,997 [INFO] - ... sp_model:sent_piece
+2025-10-07 19:04:26,997 [INFO] - ... dynamic_seq_length:True
+2025-10-07 19:04:26,997 [INFO] - Creating BLEURT scorer.
+2025-10-07 19:04:26,997 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 19:04:26,997 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 19:04:27,009 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 19:04:27,527 [INFO] - SentencePiece tokenizer created.
+2025-10-07 19:04:27,535 [INFO] - Creating Eager Mode predictor.
+2025-10-07 19:04:27,539 [INFO] - Loading model.
+2025-10-07 19:04:33,845 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 19:04:33,845 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 19:04:33,853 [INFO] - BLEURT initialized.
+2025-10-07 19:04:34,026 [INFO] - Starting final training (v14) from scratch with mBART-LARGE...

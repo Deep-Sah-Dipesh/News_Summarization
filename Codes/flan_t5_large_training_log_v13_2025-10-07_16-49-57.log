@@ -1,0 +1,56 @@
+2025-10-07 16:50:00,646 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 16:50:02,196 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 16:51:30,261 [WARNING] - From c:\Users\admin\anaconda3\envs\summarizer_env2\lib\site-packages\bleurt\score.py:160: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+2025-10-07 16:51:30,275 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 16:51:30,578 [INFO] - Config file found, reading.
+2025-10-07 16:51:30,578 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 16:51:30,578 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 16:51:30,578 [INFO] - ... name:BLEURT-20
+2025-10-07 16:51:30,578 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 16:51:30,578 [INFO] - ... max_seq_length:512
+2025-10-07 16:51:30,590 [INFO] - ... vocab_file:None
+2025-10-07 16:51:30,591 [INFO] - ... do_lower_case:None
+2025-10-07 16:51:30,594 [INFO] - ... sp_model:sent_piece
+2025-10-07 16:51:30,596 [INFO] - ... dynamic_seq_length:True
+2025-10-07 16:51:30,597 [INFO] - Creating BLEURT scorer.
+2025-10-07 16:51:30,597 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 16:51:30,597 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 16:51:30,597 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 16:51:31,058 [INFO] - SentencePiece tokenizer created.
+2025-10-07 16:51:31,060 [INFO] - Creating Eager Mode predictor.
+2025-10-07 16:51:31,062 [INFO] - Loading model.
+2025-10-07 16:51:36,525 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 16:51:36,525 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 16:51:36,534 [INFO] - BLEURT initialized.
+2025-10-07 16:51:39,258 [INFO] - Starting final training (v13) from scratch with FLAN-T5-LARGE...
+2025-10-07 16:53:57,676 [ERROR] - CRITICAL: Training loss is zero. This indicates a likely data leak.
+2025-10-07 16:53:57,676 [ERROR] - Stopping training to prevent wasted resources.
+2025-10-07 16:54:43,443 [INFO] - Training finished. All checkpoints and logs are saved.
+2025-10-07 16:56:35,506 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 16:56:37,027 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 16:56:37,027 [INFO] - --- Starting Aggressive Data Leak Detection ---
+2025-10-07 16:56:37,444 [INFO] - No data leaks found in the dataset.
+2025-10-07 16:56:37,444 [INFO] - Training will proceed with 9223 clean rows.
+2025-10-07 16:58:04,181 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 16:58:04,181 [INFO] - Config file found, reading.
+2025-10-07 16:58:04,181 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 16:58:04,181 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 16:58:04,181 [INFO] - ... name:BLEURT-20
+2025-10-07 16:58:04,181 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 16:58:04,181 [INFO] - ... max_seq_length:512
+2025-10-07 16:58:04,181 [INFO] - ... vocab_file:None
+2025-10-07 16:58:04,181 [INFO] - ... do_lower_case:None
+2025-10-07 16:58:04,196 [INFO] - ... sp_model:sent_piece
+2025-10-07 16:58:04,198 [INFO] - ... dynamic_seq_length:True
+2025-10-07 16:58:04,199 [INFO] - Creating BLEURT scorer.
+2025-10-07 16:58:04,200 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 16:58:04,201 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 16:58:04,204 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 16:58:04,644 [INFO] - SentencePiece tokenizer created.
+2025-10-07 16:58:04,644 [INFO] - Creating Eager Mode predictor.
+2025-10-07 16:58:04,644 [INFO] - Loading model.
+2025-10-07 16:58:10,523 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 16:58:10,523 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 16:58:10,530 [INFO] - BLEURT initialized.
+2025-10-07 16:58:12,801 [INFO] - Starting final training (v13-final) from scratch with FLAN-T5-LARGE...

@@ -1,0 +1,120 @@
+2025-10-08 01:05:53,936 [INFO] - --- Starting Post-Training Evaluation of Checkpoints (GPU-Accelerated) ---
+2025-10-08 01:05:53,951 [INFO] - Loading and preparing test data...
+2025-10-08 01:05:57,075 [WARNING] - Using a subset of 1000 examples for quick evaluation.
+2025-10-08 01:05:57,075 [INFO] - Test data prepared with 1000 examples.
+2025-10-08 01:05:57,085 [INFO] - Found 4 checkpoints to evaluate: ['checkpoint-2076', 'checkpoint-4152', 'checkpoint-6228', 'checkpoint-8304']
+2025-10-08 01:06:02,425 [INFO] - Initializing GPU-based BLEURT scorer (will auto-download checkpoint if needed)...
+2025-10-08 01:06:02,595 [WARNING] - From c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\score.py:160: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+2025-10-08 01:06:02,597 [INFO] - Reading checkpoint bleurt-20.
+2025-10-08 01:06:02,599 [ERROR] - An unexpected error occurred: Could not find BLEURT checkpoint bleurt-20
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_22992\636203867.py", line 103, in main
+    bleurt_scorer_gpu = bleurt_scorer.BleurtScorer("bleurt-20")
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\score.py", line 161, in __init__
+    self.config = checkpoint_lib.read_bleurt_config(checkpoint)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\checkpoint.py", line 84, in read_bleurt_config
+    assert tf.io.gfile.exists(path), \
+AssertionError: Could not find BLEURT checkpoint bleurt-20
+2025-10-08 01:07:05,211 [INFO] - --- Starting Post-Training Evaluation of Checkpoints (Optimized) ---
+2025-10-08 01:07:05,212 [INFO] - Loading and preparing test data...
+2025-10-08 01:07:08,338 [WARNING] - Using a subset of 500 examples for quick evaluation.
+2025-10-08 01:07:08,338 [INFO] - Test data prepared with 500 examples.
+2025-10-08 01:07:08,338 [INFO] - Found 4 checkpoints to evaluate: ['checkpoint-2076', 'checkpoint-4152', 'checkpoint-6228', 'checkpoint-8304']
+2025-10-08 01:07:20,768 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-08 01:07:20,768 [INFO] - Config file found, reading.
+2025-10-08 01:07:20,768 [INFO] - Will load checkpoint BLEURT-20
+2025-10-08 01:07:20,768 [INFO] - Loads full paths and checks that files exists.
+2025-10-08 01:07:20,768 [INFO] - ... name:BLEURT-20
+2025-10-08 01:07:20,768 [INFO] - ... bert_config_file:bert_config.json
+2025-10-08 01:07:20,768 [INFO] - ... max_seq_length:512
+2025-10-08 01:07:20,768 [INFO] - ... vocab_file:None
+2025-10-08 01:07:20,768 [INFO] - ... do_lower_case:None
+2025-10-08 01:07:20,784 [INFO] - ... sp_model:sent_piece
+2025-10-08 01:07:20,785 [INFO] - ... dynamic_seq_length:True
+2025-10-08 01:07:20,787 [INFO] - Creating BLEURT scorer.
+2025-10-08 01:07:20,790 [INFO] - Creating SentencePiece tokenizer.
+2025-10-08 01:07:20,791 [INFO] - Creating SentencePiece tokenizer.
+2025-10-08 01:07:20,791 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-08 01:07:21,268 [INFO] - SentencePiece tokenizer created.
+2025-10-08 01:07:21,271 [INFO] - Creating Eager Mode predictor.
+2025-10-08 01:07:21,272 [INFO] - Loading model.
+2025-10-08 01:07:27,084 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-08 01:07:27,084 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-08 01:07:27,094 [INFO] - BLEURT initialized.
+2025-10-08 01:07:27,094 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-2076 ---
+2025-10-08 01:07:31,553 [INFO] - Running evaluation on checkpoint-2076...
+2025-10-08 01:14:46,765 [INFO] - Using default tokenizer.
+2025-10-08 01:25:16,994 [INFO] - --- Results for checkpoint-2076 ---
+2025-10-08 01:25:16,997 [INFO] -   - eval_rouge1: 0.0409
+2025-10-08 01:25:16,998 [INFO] -   - eval_rouge2: 0.0209
+2025-10-08 01:25:16,998 [INFO] -   - eval_rougeL: 0.0275
+2025-10-08 01:25:16,998 [INFO] -   - eval_bleurt_f1: 0.2583
+2025-10-08 01:25:16,998 [INFO] -   - eval_loss: 1.6859
+2025-10-08 01:25:16,998 [INFO] -   - eval_model_preparation_time: 0.0
+2025-10-08 01:25:17,003 [INFO] -   - eval_runtime: 1064.9994
+2025-10-08 01:25:17,004 [INFO] -   - eval_samples_per_second: 0.469
+2025-10-08 01:25:17,006 [INFO] -   - eval_steps_per_second: 0.03
+2025-10-08 01:25:17,006 [INFO] - *** New best checkpoint found: checkpoint-2076 with eval_bleurt_f1: 0.2583 ***
+2025-10-08 01:25:17,006 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-4152 ---
+2025-10-08 01:25:20,924 [INFO] - Running evaluation on checkpoint-4152...
+2025-10-08 01:32:34,883 [INFO] - Using default tokenizer.
+2025-10-08 01:43:15,831 [INFO] - --- Results for checkpoint-4152 ---
+2025-10-08 01:43:15,831 [INFO] -   - eval_rouge1: 0.2682
+2025-10-08 01:43:15,831 [INFO] -   - eval_rouge2: 0.1067
+2025-10-08 01:43:15,831 [INFO] -   - eval_rougeL: 0.2432
+2025-10-08 01:43:15,831 [INFO] -   - eval_bleurt_f1: 0.4036
+2025-10-08 01:43:15,831 [INFO] -   - eval_loss: 1.5638
+2025-10-08 01:43:15,831 [INFO] -   - eval_model_preparation_time: 0.0055
+2025-10-08 01:43:15,831 [INFO] -   - eval_runtime: 1074.5817
+2025-10-08 01:43:15,839 [INFO] -   - eval_samples_per_second: 0.465
+2025-10-08 01:43:15,839 [INFO] -   - eval_steps_per_second: 0.03
+2025-10-08 01:43:15,843 [INFO] - *** New best checkpoint found: checkpoint-4152 with eval_bleurt_f1: 0.4036 ***
+2025-10-08 01:43:15,844 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-6228 ---
+2025-10-08 01:43:19,693 [INFO] - Running evaluation on checkpoint-6228...
+2025-10-08 01:50:42,969 [INFO] - Using default tokenizer.
+2025-10-08 02:01:50,847 [INFO] - --- Results for checkpoint-6228 ---
+2025-10-08 02:01:50,847 [INFO] -   - eval_rouge1: 0.2363
+2025-10-08 02:01:50,847 [INFO] -   - eval_rouge2: 0.0982
+2025-10-08 02:01:50,863 [INFO] -   - eval_rougeL: 0.2146
+2025-10-08 02:01:50,864 [INFO] -   - eval_bleurt_f1: 0.3982
+2025-10-08 02:01:50,864 [INFO] -   - eval_loss: 1.5082
+2025-10-08 02:01:50,864 [INFO] -   - eval_model_preparation_time: 0.0136
+2025-10-08 02:01:50,864 [INFO] -   - eval_runtime: 1110.6297
+2025-10-08 02:01:50,864 [INFO] -   - eval_samples_per_second: 0.45
+2025-10-08 02:01:50,864 [INFO] -   - eval_steps_per_second: 0.029
+2025-10-08 02:01:50,864 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-8304 ---
+2025-10-08 02:01:54,763 [INFO] - Running evaluation on checkpoint-8304...
+2025-10-08 02:09:18,003 [INFO] - Using default tokenizer.
+2025-10-08 02:20:39,800 [INFO] - --- Results for checkpoint-8304 ---
+2025-10-08 02:20:39,800 [INFO] -   - eval_rouge1: 0.249
+2025-10-08 02:20:39,800 [INFO] -   - eval_rouge2: 0.111
+2025-10-08 02:20:39,800 [INFO] -   - eval_rougeL: 0.2186
+2025-10-08 02:20:39,816 [INFO] -   - eval_bleurt_f1: 0.3965
+2025-10-08 02:20:39,817 [INFO] -   - eval_loss: 1.5014
+2025-10-08 02:20:39,818 [INFO] -   - eval_model_preparation_time: 0.0167
+2025-10-08 02:20:39,819 [INFO] -   - eval_runtime: 1124.7317
+2025-10-08 02:20:39,820 [INFO] -   - eval_samples_per_second: 0.445
+2025-10-08 02:20:39,821 [INFO] -   - eval_steps_per_second: 0.028
+2025-10-08 02:20:39,822 [INFO] - 
+================================================================================
+2025-10-08 02:20:39,822 [INFO] -                         --- FINAL EVALUATION SUMMARY ---                        
+2025-10-08 02:20:39,822 [INFO] - ================================================================================
+2025-10-08 02:20:39,828 [INFO] - Checkpoint           | eval_loss    | eval_rouge1  | eval_rouge2  | eval_rougeL  | eval_bleurt_f1 
+2025-10-08 02:20:39,829 [INFO] - --------------------------------------------------------------------------------------------------
+2025-10-08 02:20:39,829 [ERROR] - An unexpected error occurred: Unknown format code 'f' for object of type 'str'
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_22992\1921915600.py", line 168, in main
+    row = f"{result['checkpoint']:<20} | {result.get('eval_loss', 'N/A'):<12.4f} | {result.get('eval_eval_rouge1', 'N/A'):<12.4f} | {result.get('eval_eval_rouge2', 'N/A'):<12.4f} | {result.get('eval_eval_rougeL', 'N/A'):<12.4f} | {result.get(metric_to_check, 'N/A'):<15.4f}"
+ValueError: Unknown format code 'f' for object of type 'str'
+2025-10-08 02:25:57,558 [INFO] - --- Starting Manual Model Save ---
+2025-10-08 02:25:57,558 [INFO] - Source Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-4152
+2025-10-08 02:25:57,558 [INFO] - Destination: mbart-large-50-cnn-summarizer-v14\final_model
+2025-10-08 02:25:57,558 [WARNING] - Removing existing 'final_model' directory: mbart-large-50-cnn-summarizer-v14\final_model
+2025-10-08 02:27:22,891 [INFO] - 
+SUCCESS: Successfully copied 'checkpoint-4152' to 'mbart-large-50-cnn-summarizer-v14\final_model'.
+2025-10-08 02:27:22,891 [INFO] - Your final model is now ready to use.

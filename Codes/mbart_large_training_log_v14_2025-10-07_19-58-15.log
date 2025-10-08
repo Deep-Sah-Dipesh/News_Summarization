@@ -1,0 +1,252 @@
+2025-10-07 19:58:19,747 [ERROR] - An unexpected error occurred during the main process: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_17504\79593845.py", line 60, in main
+    model = MBartForConditionalGeneration.from_pretrained(BASE_MODEL_PATH)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 277, in _wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 5051, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 5319, in _load_pretrained_model
+    load_state_dict(checkpoint_files[0], map_location="meta", weights_only=weights_only).keys()
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 508, in load_state_dict
+    check_torch_load_is_safe()
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\utils\import_utils.py", line 1647, in check_torch_load_is_safe
+    raise ValueError(
+ValueError: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+2025-10-07 20:03:27,116 [INFO] - Attempting to load model using safetensors to bypass torch.load vulnerability check.
+2025-10-07 20:03:28,571 [INFO] - Model loaded successfully using safetensors.
+2025-10-07 20:03:29,256 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 20:03:30,762 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 20:04:58,460 [WARNING] - From c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\score.py:160: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+2025-10-07 20:04:58,460 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 20:04:58,465 [INFO] - Config file found, reading.
+2025-10-07 20:04:58,468 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 20:04:58,469 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 20:04:58,470 [INFO] - ... name:BLEURT-20
+2025-10-07 20:04:58,470 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 20:04:58,470 [INFO] - ... max_seq_length:512
+2025-10-07 20:04:58,470 [INFO] - ... vocab_file:None
+2025-10-07 20:04:58,470 [INFO] - ... do_lower_case:None
+2025-10-07 20:04:58,478 [INFO] - ... sp_model:sent_piece
+2025-10-07 20:04:58,480 [INFO] - ... dynamic_seq_length:True
+2025-10-07 20:04:58,480 [INFO] - Creating BLEURT scorer.
+2025-10-07 20:04:58,482 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 20:04:58,483 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 20:04:58,485 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 20:04:58,953 [INFO] - SentencePiece tokenizer created.
+2025-10-07 20:04:58,953 [INFO] - Creating Eager Mode predictor.
+2025-10-07 20:04:58,953 [INFO] - Loading model.
+2025-10-07 20:05:04,731 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 20:05:04,732 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 20:05:04,741 [INFO] - BLEURT initialized.
+2025-10-07 20:05:07,134 [INFO] - Starting final training (v14) from scratch with FLAN-T5-LARGE...
+2025-10-07 20:07:25,828 [ERROR] - CRITICAL: Training loss is zero. This indicates a likely data leak. Stopping training.
+2025-10-07 20:08:16,513 [INFO] - Training finished. All checkpoints and logs are saved.
+2025-10-07 20:10:08,062 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 20:10:09,575 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 20:10:09,578 [INFO] - --- Starting Aggressive Data Leak Detection ---
+2025-10-07 20:10:09,983 [INFO] - No data leaks found in the dataset.
+2025-10-07 20:10:09,983 [INFO] - Training will proceed with 9223 clean rows.
+2025-10-07 20:11:38,807 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 20:11:38,811 [INFO] - Config file found, reading.
+2025-10-07 20:11:38,812 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 20:11:38,812 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 20:11:38,812 [INFO] - ... name:BLEURT-20
+2025-10-07 20:11:38,812 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 20:11:38,812 [INFO] - ... max_seq_length:512
+2025-10-07 20:11:38,812 [INFO] - ... vocab_file:None
+2025-10-07 20:11:38,823 [INFO] - ... do_lower_case:None
+2025-10-07 20:11:38,825 [INFO] - ... sp_model:sent_piece
+2025-10-07 20:11:38,826 [INFO] - ... dynamic_seq_length:True
+2025-10-07 20:11:38,828 [INFO] - Creating BLEURT scorer.
+2025-10-07 20:11:38,830 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 20:11:38,832 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 20:11:38,833 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 20:11:39,315 [INFO] - SentencePiece tokenizer created.
+2025-10-07 20:11:39,322 [INFO] - Creating Eager Mode predictor.
+2025-10-07 20:11:39,322 [INFO] - Loading model.
+2025-10-07 20:11:45,364 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 20:11:45,364 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 20:11:45,367 [INFO] - BLEURT initialized.
+2025-10-07 20:11:47,677 [INFO] - Starting final training (v14-final) from scratch with FLAN-T5-LARGE...
+2025-10-07 20:14:07,302 [ERROR] - CRITICAL: Training loss is zero. Stopping training.
+2025-10-07 20:14:58,260 [INFO] - Training finished. All checkpoints and logs are saved.
+2025-10-07 20:16:01,859 [ERROR] - An unexpected error occurred during the main process: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_17504\3700686469.py", line 60, in main
+    model = MBartForConditionalGeneration.from_pretrained(BASE_MODEL_PATH)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 277, in _wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 5051, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 5319, in _load_pretrained_model
+    load_state_dict(checkpoint_files[0], map_location="meta", weights_only=weights_only).keys()
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\modeling_utils.py", line 508, in load_state_dict
+    check_torch_load_is_safe()
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\transformers\utils\import_utils.py", line 1647, in check_torch_load_is_safe
+    raise ValueError(
+ValueError: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434
+2025-10-07 20:18:00,424 [INFO] - Attempting to load model using safetensors to bypass torch.load vulnerability check.
+2025-10-07 20:18:03,701 [INFO] - Model loaded successfully using safetensors.
+2025-10-07 20:18:04,413 [INFO] - --- Starting Text Sanitization & Normalization ---
+2025-10-07 20:18:05,972 [INFO] - --- Text Sanitization & Normalization Finished ---
+2025-10-07 20:18:55,190 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 20:18:55,190 [INFO] - Config file found, reading.
+2025-10-07 20:18:55,190 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 20:18:55,190 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 20:18:55,207 [INFO] - ... name:BLEURT-20
+2025-10-07 20:18:55,207 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 20:18:55,213 [INFO] - ... max_seq_length:512
+2025-10-07 20:18:55,214 [INFO] - ... vocab_file:None
+2025-10-07 20:18:55,217 [INFO] - ... do_lower_case:None
+2025-10-07 20:18:55,219 [INFO] - ... sp_model:sent_piece
+2025-10-07 20:18:55,221 [INFO] - ... dynamic_seq_length:True
+2025-10-07 20:18:55,224 [INFO] - Creating BLEURT scorer.
+2025-10-07 20:18:55,226 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 20:18:55,228 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 20:18:55,230 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 20:18:55,728 [INFO] - SentencePiece tokenizer created.
+2025-10-07 20:18:55,728 [INFO] - Creating Eager Mode predictor.
+2025-10-07 20:18:55,741 [INFO] - Loading model.
+2025-10-07 20:19:01,388 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 20:19:01,388 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 20:19:01,391 [INFO] - BLEURT initialized.
+2025-10-07 20:19:05,307 [INFO] - Starting final training (v14) from scratch with mBART-LARGE...
+2025-10-07 22:53:59,299 [INFO] - Training finished. All checkpoints and logs are saved.
+2025-10-07 23:14:05,619 [INFO] - Attempting to find best model in: mbart-large-50-cnn-summarizer-v14
+2025-10-07 23:14:05,619 [ERROR] - FATAL: 'trainer_state.json' not found in 'mbart-large-50-cnn-summarizer-v14'.
+2025-10-07 23:18:26,847 [INFO] - Attempting to find best model in: mbart-large-50-cnn-summarizer-v14
+2025-10-07 23:18:26,847 [WARNING] - 'trainer_state.json' not found at top level. Scanning individual checkpoints...
+2025-10-07 23:18:26,906 [ERROR] - FATAL: Could not find any log history in the main state file or any checkpoint folders.
+2025-10-07 23:20:41,148 [INFO] - Attempting to find best model in: mbart-large-50-cnn-summarizer-v14
+2025-10-07 23:20:41,163 [INFO] - Contents of 'mbart-large-50-cnn-summarizer-v14': ['checkpoint-2076', 'checkpoint-4152', 'checkpoint-6228', 'checkpoint-8304', 'logs']
+2025-10-07 23:20:41,164 [WARNING] - Could not find any evaluation metric logs.
+2025-10-07 23:20:41,164 [WARNING] - Defaulting to the LAST saved checkpoint as the best model.
+2025-10-07 23:20:41,164 [INFO] - Identified last checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-8304
+2025-10-07 23:20:41,164 [INFO] - --- Model Identified for Saving ---
+2025-10-07 23:20:41,164 [INFO] - Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-8304
+2025-10-07 23:22:01,049 [INFO] - Successfully copied best model to: mbart-large-50-cnn-summarizer-v14\final_model
+2025-10-07 23:31:36,192 [INFO] - --- Starting Post-Training Evaluation of Checkpoints ---
+2025-10-07 23:31:36,197 [INFO] - Loading and preparing test data...
+2025-10-07 23:31:39,400 [INFO] - Test data prepared with 1845 examples.
+2025-10-07 23:31:39,400 [INFO] - Found 4 checkpoints to evaluate: ['checkpoint-2076', 'checkpoint-4152', 'checkpoint-6228', 'checkpoint-8304']
+2025-10-07 23:31:51,081 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-07 23:31:51,083 [INFO] - Config file found, reading.
+2025-10-07 23:31:51,089 [INFO] - Will load checkpoint BLEURT-20
+2025-10-07 23:31:51,090 [INFO] - Loads full paths and checks that files exists.
+2025-10-07 23:31:51,092 [INFO] - ... name:BLEURT-20
+2025-10-07 23:31:51,093 [INFO] - ... bert_config_file:bert_config.json
+2025-10-07 23:31:51,096 [INFO] - ... max_seq_length:512
+2025-10-07 23:31:51,098 [INFO] - ... vocab_file:None
+2025-10-07 23:31:51,099 [INFO] - ... do_lower_case:None
+2025-10-07 23:31:51,102 [INFO] - ... sp_model:sent_piece
+2025-10-07 23:31:51,104 [INFO] - ... dynamic_seq_length:True
+2025-10-07 23:31:51,105 [INFO] - Creating BLEURT scorer.
+2025-10-07 23:31:51,108 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 23:31:51,109 [INFO] - Creating SentencePiece tokenizer.
+2025-10-07 23:31:51,111 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-07 23:31:51,601 [INFO] - SentencePiece tokenizer created.
+2025-10-07 23:31:51,614 [INFO] - Creating Eager Mode predictor.
+2025-10-07 23:31:51,617 [INFO] - Loading model.
+2025-10-07 23:31:57,978 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-07 23:31:57,980 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-07 23:31:57,986 [INFO] - BLEURT initialized.
+2025-10-07 23:31:57,986 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-2076 ---
+2025-10-07 23:32:04,261 [INFO] - Running evaluation on checkpoint-2076...
+2025-10-08 00:05:37,655 [INFO] - --- Starting Post-Training Evaluation of Checkpoints (Optimized) ---
+2025-10-08 00:05:37,657 [INFO] - Loading and preparing test data...
+2025-10-08 00:05:40,845 [WARNING] - Using a subset of 500 examples for quick evaluation.
+2025-10-08 00:05:40,845 [INFO] - Test data prepared with 500 examples.
+2025-10-08 00:05:40,845 [INFO] - Found 4 checkpoints to evaluate: ['checkpoint-2076', 'checkpoint-4152', 'checkpoint-6228', 'checkpoint-8304']
+2025-10-08 00:05:53,257 [INFO] - Reading checkpoint C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20.
+2025-10-08 00:05:53,257 [INFO] - Config file found, reading.
+2025-10-08 00:05:53,270 [INFO] - Will load checkpoint BLEURT-20
+2025-10-08 00:05:53,270 [INFO] - Loads full paths and checks that files exists.
+2025-10-08 00:05:53,273 [INFO] - ... name:BLEURT-20
+2025-10-08 00:05:53,273 [INFO] - ... bert_config_file:bert_config.json
+2025-10-08 00:05:53,279 [INFO] - ... max_seq_length:512
+2025-10-08 00:05:53,281 [INFO] - ... vocab_file:None
+2025-10-08 00:05:53,281 [INFO] - ... do_lower_case:None
+2025-10-08 00:05:53,281 [INFO] - ... sp_model:sent_piece
+2025-10-08 00:05:53,281 [INFO] - ... dynamic_seq_length:True
+2025-10-08 00:05:53,281 [INFO] - Creating BLEURT scorer.
+2025-10-08 00:05:53,290 [INFO] - Creating SentencePiece tokenizer.
+2025-10-08 00:05:53,292 [INFO] - Creating SentencePiece tokenizer.
+2025-10-08 00:05:53,293 [INFO] - Will load model: C:\Users\admin\.cache\huggingface\metrics\bleurt\bleurt-20\downloads\extracted\8db8856a80394ae84b010e83ab663d4a3ccfa244ce3d0dbe00143f73e65ff123\BLEURT-20\sent_piece.model.
+2025-10-08 00:05:53,760 [INFO] - SentencePiece tokenizer created.
+2025-10-08 00:05:53,761 [INFO] - Creating Eager Mode predictor.
+2025-10-08 00:05:53,761 [INFO] - Loading model.
+2025-10-08 00:05:59,845 [INFO] - Fingerprint not found. Saved model loading will continue.
+2025-10-08 00:05:59,856 [INFO] - path_and_singleprint metric could not be logged. Saved model loading will continue.
+2025-10-08 00:05:59,860 [INFO] - BLEURT initialized.
+2025-10-08 00:05:59,860 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-2076 ---
+2025-10-08 00:06:03,694 [INFO] - Running evaluation on checkpoint-2076...
+2025-10-08 00:14:13,634 [INFO] - Using default tokenizer.
+2025-10-08 00:25:55,794 [INFO] - --- Results for checkpoint-2076 ---
+2025-10-08 00:25:55,796 [INFO] -   - eval_rouge1: 0.0409
+2025-10-08 00:25:55,797 [INFO] -   - eval_rouge2: 0.021
+2025-10-08 00:25:55,799 [INFO] -   - eval_rougeL: 0.0276
+2025-10-08 00:25:55,799 [INFO] -   - eval_bleurt_f1: 0.2583
+2025-10-08 00:25:55,800 [INFO] -   - eval_loss: 1.6859
+2025-10-08 00:25:55,801 [INFO] -   - eval_model_preparation_time: 0.0048
+2025-10-08 00:25:55,801 [INFO] -   - eval_runtime: 1192.0459
+2025-10-08 00:25:55,802 [INFO] -   - eval_samples_per_second: 0.419
+2025-10-08 00:25:55,804 [INFO] -   - eval_steps_per_second: 0.027
+2025-10-08 00:25:55,805 [INFO] - *** New best checkpoint found: checkpoint-2076 with eval_bleurt_f1: 0.2583 ***
+2025-10-08 00:25:55,806 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-4152 ---
+2025-10-08 00:25:59,911 [INFO] - Running evaluation on checkpoint-4152...
+2025-10-08 00:34:06,833 [INFO] - Using default tokenizer.
+2025-10-08 00:45:50,066 [INFO] - --- Results for checkpoint-4152 ---
+2025-10-08 00:45:50,068 [INFO] -   - eval_rouge1: 0.2696
+2025-10-08 00:45:50,068 [INFO] -   - eval_rouge2: 0.106
+2025-10-08 00:45:50,068 [INFO] -   - eval_rougeL: 0.2434
+2025-10-08 00:45:50,068 [INFO] -   - eval_bleurt_f1: 0.4036
+2025-10-08 00:45:50,072 [INFO] -   - eval_loss: 1.5638
+2025-10-08 00:45:50,072 [INFO] -   - eval_model_preparation_time: 0.0039
+2025-10-08 00:45:50,072 [INFO] -   - eval_runtime: 1189.7429
+2025-10-08 00:45:50,072 [INFO] -   - eval_samples_per_second: 0.42
+2025-10-08 00:45:50,077 [INFO] -   - eval_steps_per_second: 0.027
+2025-10-08 00:45:50,077 [INFO] - *** New best checkpoint found: checkpoint-4152 with eval_bleurt_f1: 0.4036 ***
+2025-10-08 00:45:50,080 [INFO] - 
+--- Evaluating Checkpoint: mbart-large-50-cnn-summarizer-v14\checkpoint-6228 ---
+2025-10-08 00:45:54,015 [INFO] - Running evaluation on checkpoint-6228...
+2025-10-08 00:47:37,379 [INFO] - --- Starting Post-Training Evaluation of Checkpoints (Optimized) ---
+2025-10-08 00:47:37,382 [INFO] - Loading and preparing test data...
+2025-10-08 00:47:40,527 [WARNING] - Using a subset of 1000 examples for quick evaluation.
+2025-10-08 00:47:40,530 [INFO] - Test data prepared with 1000 examples.
+2025-10-08 00:47:40,530 [INFO] - Found 4 checkpoints to evaluate: ['checkpoint-2076', 'checkpoint-4152', 'checkpoint-6228', 'checkpoint-8304']
+2025-10-08 00:47:43,884 [INFO] - Initializing GPU-based BLEURT scorer...
+2025-10-08 00:47:43,884 [INFO] - Reading checkpoint bleurt-20.
+2025-10-08 00:47:43,887 [ERROR] - An unexpected error occurred: Could not find BLEURT checkpoint bleurt-20
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_17504\2791115828.py", line 103, in main
+    bleurt_scorer_gpu = bleurt_scorer.BleurtScorer(bleurt_checkpoint)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\score.py", line 161, in __init__
+    self.config = checkpoint_lib.read_bleurt_config(checkpoint)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\checkpoint.py", line 84, in read_bleurt_config
+    assert tf.io.gfile.exists(path), \
+AssertionError: Could not find BLEURT checkpoint bleurt-20
+2025-10-08 01:04:15,128 [INFO] - --- Starting Post-Training Evaluation of Checkpoints (GPU-Accelerated) ---
+2025-10-08 01:04:15,128 [INFO] - Loading and preparing test data...
+2025-10-08 01:04:18,254 [WARNING] - Using a subset of 1000 examples for quick evaluation.
+2025-10-08 01:04:18,254 [INFO] - Test data prepared with 1000 examples.
+2025-10-08 01:04:18,254 [INFO] - Found 4 checkpoints to evaluate: ['checkpoint-2076', 'checkpoint-4152', 'checkpoint-6228', 'checkpoint-8304']
+2025-10-08 01:04:21,505 [INFO] - Initializing GPU-based BLEURT scorer (will auto-download checkpoint if needed)...
+2025-10-08 01:04:21,519 [INFO] - Reading checkpoint bleurt-20.
+2025-10-08 01:04:21,519 [ERROR] - An unexpected error occurred: Could not find BLEURT checkpoint bleurt-20
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_17504\636203867.py", line 103, in main
+    bleurt_scorer_gpu = bleurt_scorer.BleurtScorer("bleurt-20")
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\score.py", line 161, in __init__
+    self.config = checkpoint_lib.read_bleurt_config(checkpoint)
+  File "c:\Users\admin\anaconda3\envs\summarizer_env3\lib\site-packages\bleurt\checkpoint.py", line 84, in read_bleurt_config
+    assert tf.io.gfile.exists(path), \
+AssertionError: Could not find BLEURT checkpoint bleurt-20

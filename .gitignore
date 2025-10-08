@@ -1,6 +1,7 @@
 # Ignore the mt5 model and all its contents
 **/mt5-base-cnn-summarizer-en-hi*/
-**/mbart-large-50-cnn-summarizer-en-hi*/
+**/mbart-large-50-cnn-summarizer*/
+**/flan-t5-large-cnn-summarizer*/
 
 # Ignore environment files containing secrets
 .env
