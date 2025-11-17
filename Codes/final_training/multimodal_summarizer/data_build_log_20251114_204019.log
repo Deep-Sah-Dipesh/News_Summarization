@@ -1,0 +1,18 @@
+2025-11-14 20:40:19,547 [INFO] - --- Starting Multimodal Dataset Build ---
+2025-11-14 20:40:19,547 [INFO] - DATA_ROOT_DIR: H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news
+2025-11-14 20:40:19,547 [INFO] - MAX_FILES_TO_PROCESS: 500
+2025-11-14 20:40:19,547 [INFO] - Loading EasyOCR model... (This may take a moment)
+2025-11-14 20:40:19,607 [WARNING] - Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2025-11-14 20:40:29,257 [INFO] - Download complete
+2025-11-14 20:40:29,397 [WARNING] - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-11-14 20:40:32,327 [INFO] - Download complete.
+2025-11-14 20:40:34,327 [INFO] - EasyOCR model loaded.
+2025-11-14 20:40:34,357 [INFO] - Scanning for .json files in H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news...
+2025-11-14 20:40:34,622 [INFO] - Found 41561 total .json files.
+2025-11-14 20:40:34,622 [WARNING] - Processing a subset of 500 files.
+2025-11-14 20:40:34,622 [INFO] - Starting processing loop...
+2025-11-14 20:47:16,084 [INFO] - Successfully processed 433 items.
+2025-11-14 20:47:16,084 [INFO] - Converting to DataFrame and saving to multimodal_dataset_pilot_20251114.parquet...
+2025-11-14 20:47:16,219 [INFO] - --- Pilot Run Complete! ---
+2025-11-14 20:47:16,220 [INFO] - Final dataset saved to multimodal_dataset_pilot_20251114.parquet
+2025-11-14 20:47:16,220 [INFO] - You can now inspect this file to verify the data.

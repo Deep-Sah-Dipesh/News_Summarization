@@ -5,3 +5,15 @@
 
 # Ignore environment files containing secrets
 .env
+# Ignore Python compiled files
+*.pyc
+# Ignore all .pth files
+*.pth
+# Ignore model files
+*.bin
+
+# Ignore dataset image files
+*.jpg
+*.png
+*.gif
+*.jpeg

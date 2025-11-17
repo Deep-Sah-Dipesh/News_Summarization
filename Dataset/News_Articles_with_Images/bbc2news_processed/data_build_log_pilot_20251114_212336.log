@@ -1,0 +1,11 @@
+2025-11-14 21:23:36,087 [INFO] - --- Starting Multimodal Dataset Build (Pilot Run) ---
+2025-11-14 21:23:36,087 [INFO] - Source Dirs: ['C:\\Users\\admin\\Downloads\\articles\\articles\\bbc_2\\bbcnews_stm2json']
+2025-11-14 21:23:36,087 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news_processed
+2025-11-14 21:23:36,087 [INFO] - Max Files: All
+2025-11-14 21:23:36,087 [INFO] - Loading EasyOCR model... (This may take a moment on first run)
+2025-11-14 21:23:38,197 [INFO] - EasyOCR model loaded.
+2025-11-14 21:23:38,497 [INFO] - Scanning for .json files...
+2025-11-14 21:23:38,497 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\bbc_2\bbcnews_stm2json
+2025-11-14 21:23:39,577 [INFO] - Found 160605 total .json files.
+2025-11-14 21:23:39,577 [INFO] - Starting processing loop...
+2025-11-14 21:30:47,665 [WARNING] - --- Process Interrupted by User ---

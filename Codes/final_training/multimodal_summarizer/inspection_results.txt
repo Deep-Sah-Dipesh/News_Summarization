@@ -1,0 +1,23 @@
+--- Inspecting Pickle File ---
+File: C:\Users\admin\Downloads\articles\articles\processed_bbc_1.p
+
+Successfully loaded pickle file.
+Object type: <class 'dict'>
+Data is a dictionary with 241054 keys.
+
+--- Dictionary Keys (First 50) ---
+[1452411, 1444851, 1446741, 1458081, 1452412, 1444852, 1463751, 1456191, 1461861, 1454301, 1467531, 1469421, 1446742, 1456192, 1465641, 1471311, 1484541, 1454302, 1475091, 1476981, 1486431, 1480761, 1482651, 1452413, 1450521, 1492101, 1469422, 1488321, 1458082, 1467532, 1459971, 1480762, 1488322, 1484542, 1473201, 1490211, 1475092, 1469423, 1495881, 1458083, 1497771, 1456193, 1454303, 1450522, 1492102, 1488323, 1476982, 1484543, 1478871, 1482652]
+
+--- First Item (Example) ---
+Key: 1452411
+Value (formatted):
+{
+  "title_len_w": 10,
+  "ori_id": 102969,
+  "image_id": 1452411,
+  "article_path": "1452411.txt",
+  "article_id": "/cps/news/world-europe-35105003",
+  "sen_num": 6,
+  "total_words": 275,
+  "id": 1452411
+}

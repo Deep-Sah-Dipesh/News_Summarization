@@ -1,0 +1,40 @@
+2025-11-14 21:42:15,902 [INFO] - --- Starting Multimodal Dataset Build ---
+2025-11-14 21:42:15,902 [INFO] - Source Dirs: ['C:\\Users\\admin\\Downloads\\articles\\articles\\bbc_2\\bbcnews_stm2json']
+2025-11-14 21:42:15,902 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news_processed
+2025-11-14 21:42:15,902 [INFO] - Max Files: 25000
+2025-11-14 21:42:15,902 [INFO] - Loading EasyOCR model... (This may take a moment on first run)
+2025-11-14 21:42:18,007 [INFO] - EasyOCR model loaded.
+2025-11-14 21:42:18,007 [INFO] - Scanning for .json files...
+2025-11-14 21:42:18,007 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\bbc_2\bbcnews_stm2json
+2025-11-14 21:42:19,009 [INFO] - Found 160605 total .json files.
+2025-11-14 21:42:19,009 [WARNING] - Processing a subset of 25000 files.
+2025-11-14 21:42:19,018 [INFO] - Starting processing loop...
+2025-11-14 22:12:33,028 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/46251000/jpg/_46251675_007832696-1.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/46251000/jpg/_46251675_007832696-1.jpg
+2025-11-14 22:14:30,972 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/46557000/jpg/_46557142_80740790.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/46557000/jpg/_46557142_80740790.jpg
+2025-11-14 22:31:28,642 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039853_debris_ap203.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039853_debris_ap203.jpg
+2025-11-14 22:31:29,066 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039861_seizedguns_ap203b.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039861_seizedguns_ap203b.jpg
+2025-11-14 22:31:29,513 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039903_windmill_eyewire203i.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039903_windmill_eyewire203i.jpg
+2025-11-14 22:31:29,818 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039912_bush203ap.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039912_bush203ap.jpg
+2025-11-14 22:31:31,727 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040994_chavez_afp203b.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040994_chavez_afp203b.jpg
+2025-11-14 22:31:31,998 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44041000/jpg/_44041144_lawyers_ap_203b.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44041000/jpg/_44041144_lawyers_ap_203b.jpg
+2025-11-14 22:31:32,949 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44041000/jpg/_44041497_view_getty_203b.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44041000/jpg/_44041497_view_getty_203b.jpg
+2025-11-14 22:31:38,581 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040994_chavez_afp203b.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040994_chavez_afp203b.jpg
+2025-11-14 22:31:42,357 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039853_debris_ap203.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44039000/jpg/_44039853_debris_ap203.jpg
+2025-11-14 22:32:10,767 [WARNING] - Error parsing JSON C:\Users\admin\Downloads\articles\articles\bbc_2\bbcnews_stm2json\http___news.bbc.co.uk_2_hi_americas_6955050.stm-200.json: Expecting value: line 1 column 2 (char 1)
+2025-11-14 22:44:08,169 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44752000/jpg/_44752630_poochap.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44752000/jpg/_44752630_poochap.jpg
+2025-11-14 22:45:09,262 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44752000/jpg/_44752630_poochap.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44752000/jpg/_44752630_poochap.jpg
+2025-11-14 23:04:49,093 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/46052000/jpg/_46052152_davis226ap.jpg: HTTPConnectionPool(host='newsimg.bbc.co.uk', port=80): Read timed out. (read timeout=10)
+2025-11-14 23:05:25,787 [WARNING] - Failed to download image http://news.bbcimg.co.uk/media/images/46086000/jpg/_46086038_canada512.jpg: HTTPConnectionPool(host='news.bbcimg.co.uk', port=80): Read timed out. (read timeout=10)
+2025-11-14 23:29:34,909 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040966_jamet_ap203b.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040966_jamet_ap203b.jpg
+2025-11-14 23:31:56,693 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44161000/jpg/_44161336_ap_aus203.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44161000/jpg/_44161336_ap_aus203.jpg
+2025-11-15 00:28:54,189 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040267_barneyswindow_getty.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040267_barneyswindow_getty.jpg
+2025-11-15 00:28:54,632 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040425_mosstshop_getty.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040425_mosstshop_getty.jpg
+2025-11-15 00:28:54,908 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040615_housebuild_bbc.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040615_housebuild_bbc.jpg
+2025-11-15 00:29:38,007 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040615_housebuild_bbc.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44040000/jpg/_44040615_housebuild_bbc.jpg
+2025-11-15 00:50:05,419 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44666000/jpg/_44666547_delphibody_ap226.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44666000/jpg/_44666547_delphibody_ap226.jpg
+2025-11-15 00:57:28,535 [WARNING] - Failed to download image http://newsimg.bbc.co.uk/media/images/44854000/jpg/_44854753_-2.jpg: 404 Client Error: Not Found for url: http://newsimg.bbc.co.uk/media/images/44854000/jpg/_44854753_-2.jpg
+2025-11-15 01:05:41,793 [INFO] - Successfully processed 20252 items.
+2025-11-15 01:05:41,793 [INFO] - Converting to DataFrame and saving to H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news_processed\multimodal_dataset_generation_20251114.parquet...
+2025-11-15 01:05:42,373 [INFO] - --- Dataset Build Complete! ---
+2025-11-15 01:05:42,373 [INFO] - Final dataset saved to H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news_processed\multimodal_dataset_generation_20251114.parquet
+2025-11-15 01:05:42,373 [INFO] - You can now inspect this file to verify the data.

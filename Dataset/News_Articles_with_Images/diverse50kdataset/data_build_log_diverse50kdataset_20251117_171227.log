@@ -1,0 +1,17 @@
+2025-11-17 17:12:28,256 [INFO] - --- Starting Multimodal 50k Balanced Dataset Build ---
+2025-11-17 17:12:28,256 [INFO] - Source Dirs: ['C:\\Users\\admin\\Downloads\\articles\\articles\\bbc_1', 'C:\\Users\\admin\\Downloads\\articles\\articles\\bbc_2', 'C:\\Users\\admin\\Downloads\\articles\\articles\\guardian_articles', 'C:\\Users\\admin\\Downloads\\articles\\articles\\usa_today_articles', 'C:\\Users\\admin\\Downloads\\articles\\articles\\washington_post_articles']
+2025-11-17 17:12:28,256 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\diverse50kdataset
+2025-11-17 17:12:28,262 [INFO] - Target Total Size: 50000
+2025-11-17 17:12:28,262 [INFO] - Loading EasyOCR model...
+2025-11-17 17:12:30,461 [INFO] - EasyOCR model loaded.
+2025-11-17 17:12:30,463 [INFO] - Scanning all source directories to get total file counts...
+2025-11-17 17:12:30,463 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\bbc_1
+2025-11-17 17:12:30,464 [WARNING] - No .json files found in C:\Users\admin\Downloads\articles\articles\bbc_1. Skipping.
+2025-11-17 17:12:30,464 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\bbc_2
+2025-11-17 17:12:30,465 [WARNING] - No .json files found in C:\Users\admin\Downloads\articles\articles\bbc_2. Skipping.
+2025-11-17 17:12:30,465 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\guardian_articles
+2025-11-17 17:12:44,552 [INFO] - Found 272748 files in C:\Users\admin\Downloads\articles\articles\guardian_articles.
+2025-11-17 17:12:44,552 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\usa_today_articles
+2025-11-17 17:12:45,382 [INFO] - Found 44638 files in C:\Users\admin\Downloads\articles\articles\usa_today_articles.
+2025-11-17 17:12:45,382 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\washington_post_articles
+2025-11-17 17:12:48,462 [WARNING] - --- Process Interrupted by User ---
