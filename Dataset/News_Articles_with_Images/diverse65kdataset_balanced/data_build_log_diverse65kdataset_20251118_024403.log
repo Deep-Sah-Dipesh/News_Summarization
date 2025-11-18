@@ -1,0 +1,36 @@
+2025-11-18 02:44:03,545 [INFO] - --- Starting Multimodal 65000 Balanced Dataset Build (from Nested TARs) ---
+2025-11-18 02:44:03,545 [INFO] - Source TAR: C:\Users\admin\Downloads\articles.tar.gz
+2025-11-18 02:44:03,545 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\diverse65kdataset_balanced
+2025-11-18 02:44:03,545 [INFO] - Target Total Size: 65000
+2025-11-18 02:44:03,545 [INFO] - Using 32 parallel download workers.
+2025-11-18 02:44:03,545 [INFO] - Loading EasyOCR model...
+2025-11-18 02:44:05,605 [INFO] - EasyOCR model loaded successfully on GPU.
+2025-11-18 02:44:05,605 [INFO] - Opening main TAR archive to find nested archives...
+2025-11-18 02:44:18,775 [INFO] - Found 11 total members in root archive.
+2025-11-18 02:44:18,775 [INFO] - Found nested archive: ./articles/bbc_2.tar.gz
+2025-11-18 02:44:18,775 [INFO] - Found nested archive: ./articles/guardian_articles.tar.gz
+2025-11-18 02:44:18,775 [INFO] - Found nested archive: ./articles/washington_post_articles.tar.gz
+2025-11-18 02:44:18,775 [INFO] - Found nested archive: ./articles/usa_today_articles.tar.gz
+2025-11-18 02:44:18,775 [INFO] - Found nested archive: ./articles/bbc_1.tar.gz
+2025-11-18 02:44:18,775 [INFO] - Scanning all nested archives for .json files...
+2025-11-18 02:44:18,775 [INFO] - Scanning inside: ./articles/bbc_2.tar.gz
+2025-11-18 02:44:29,055 [INFO] - Found 160605 .json files in ./articles/bbc_2.tar.gz.
+2025-11-18 02:44:29,055 [INFO] - Scanning inside: ./articles/guardian_articles.tar.gz
+2025-11-18 02:45:38,325 [INFO] - Found 595530 .json files in ./articles/guardian_articles.tar.gz.
+2025-11-18 02:45:38,327 [INFO] - Scanning inside: ./articles/washington_post_articles.tar.gz
+2025-11-18 02:46:14,237 [INFO] - Found 185239 .json files in ./articles/washington_post_articles.tar.gz.
+2025-11-18 02:46:14,237 [INFO] - Scanning inside: ./articles/usa_today_articles.tar.gz
+2025-11-18 02:46:14,237 [ERROR] - Corrupt nested archive: ./articles/usa_today_articles.tar.gz. Skipping this file.
+2025-11-18 02:46:14,237 [INFO] - Scanning inside: ./articles/bbc_1.tar.gz
+2025-11-18 02:46:54,455 [INFO] - Found 312118 .json files in ./articles/bbc_1.tar.gz.
+2025-11-18 02:46:54,455 [INFO] - Found 1253492 total processable files across 4 sources.
+2025-11-18 02:46:54,455 [INFO] - Creating a balanced dataset of 65000 total samples.
+2025-11-18 02:46:54,455 [INFO] - Taking 8328 random samples from ./articles/bbc_2.tar.gz (Ratio: 12.81%)
+2025-11-18 02:46:54,575 [INFO] - Taking 30881 random samples from ./articles/guardian_articles.tar.gz (Ratio: 47.51%)
+2025-11-18 02:46:54,959 [INFO] - Taking 9605 random samples from ./articles/washington_post_articles.tar.gz (Ratio: 14.78%)
+2025-11-18 02:46:55,071 [INFO] - Taking 16184 random samples from ./articles/bbc_1.tar.gz (Ratio: 24.90%)
+2025-11-18 02:46:55,289 [INFO] - Total files to process after sampling: 64998
+2025-11-18 02:46:55,289 [INFO] - Stage 1: Submitting all files to download queue...
+2025-11-18 02:50:46,996 [INFO] - Closing 3 in-memory archives...
+2025-11-18 02:50:46,996 [INFO] - Cleanup complete.
+2025-11-18 02:50:46,996 [WARNING] - --- Process Interrupted by User ---

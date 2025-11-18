@@ -1,0 +1,19 @@
+2025-11-18 05:52:55,162 [INFO] - --- Starting Multimodal Set 1 Build ---
+2025-11-18 05:52:55,163 [INFO] - Source Dirs: ['D:\\Articles\\extracted_articles\\bbc_1\\bbcnews_json', 'D:\\Articles\\extracted_articles\\bbc_2\\bbcnews_stm2json']
+2025-11-18 05:52:55,163 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_1
+2025-11-18 05:52:55,163 [INFO] - Target Set Size: 50000
+2025-11-18 05:52:55,163 [INFO] - Using 32 parallel download workers.
+2025-11-18 05:52:55,164 [INFO] - Processing set 1: items 0 to 50000.
+2025-11-18 05:52:55,463 [INFO] - Total items to process for this set: 50000
+2025-11-18 05:52:55,463 [INFO] - Stage 1: Submitting all files to download queue...
+2025-11-18 05:52:57,343 [INFO] - Submitted 50000 image download jobs.
+2025-11-18 05:52:57,345 [INFO] - Stage 2: Downloading and processing images (OCR)...
+2025-11-18 06:20:03,068 [INFO] - --- Set 1 Build Summary ---
+2025-11-18 06:20:03,068 [INFO] - Total JSONs processed: 50000
+2025-11-18 06:20:03,068 [INFO] - Image Downloads Succeeded: 49951
+2025-11-18 06:20:03,068 [INFO] - Image Downloads Failed (404s, Timeouts, etc.): 49
+2025-11-18 06:20:03,068 [INFO] - Final items saved: 49951
+2025-11-18 06:20:03,068 [INFO] - Finished processing set 1.
+2025-11-18 06:20:03,068 [INFO] - Converting to DataFrame and saving to H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_1\multimodal_dataset_set1.parquet...
+2025-11-18 06:20:04,651 [INFO] - --- Set 1 Build Complete! (49951 items) ---
+2025-11-18 06:20:04,651 [INFO] - Final dataset saved to H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_1\multimodal_dataset_set1.parquet

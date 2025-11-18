@@ -1,0 +1,20 @@
+2025-11-18 02:18:15,808 [INFO] - --- Starting Multimodal 65000 Balanced Dataset Build (from TAR) ---
+2025-11-18 02:18:15,808 [INFO] - Source TAR: C:\Users\admin\Downloads\articles.tar.gz
+2025-11-18 02:18:15,808 [INFO] - Source Dirs in TAR: ['articles/bbc_1', 'articles/bbc_2', 'articles/guardian_articles', 'articles/usa_today_articles', 'articles/washington_post_articles']
+2025-11-18 02:18:15,808 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\diverse65kdataset_balanced
+2025-11-18 02:18:15,810 [INFO] - Target Total Size: 65000
+2025-11-18 02:18:15,810 [INFO] - Loading EasyOCR model...
+2025-11-18 02:18:17,860 [INFO] - EasyOCR model loaded successfully on GPU.
+2025-11-18 02:18:17,862 [INFO] - Opening TAR archive to scan all member names...
+2025-11-18 02:18:31,194 [INFO] - Found 11 total files in archive.
+2025-11-18 02:18:31,194 [INFO] - Scanning for files starting with: articles/bbc_1
+2025-11-18 02:18:31,194 [WARNING] - No .json files found for prefix articles/bbc_1. Skipping.
+2025-11-18 02:18:31,194 [INFO] - Scanning for files starting with: articles/bbc_2
+2025-11-18 02:18:31,194 [WARNING] - No .json files found for prefix articles/bbc_2. Skipping.
+2025-11-18 02:18:31,194 [INFO] - Scanning for files starting with: articles/guardian_articles
+2025-11-18 02:18:31,194 [WARNING] - No .json files found for prefix articles/guardian_articles. Skipping.
+2025-11-18 02:18:31,194 [INFO] - Scanning for files starting with: articles/usa_today_articles
+2025-11-18 02:18:31,194 [WARNING] - No .json files found for prefix articles/usa_today_articles. Skipping.
+2025-11-18 02:18:31,194 [INFO] - Scanning for files starting with: articles/washington_post_articles
+2025-11-18 02:18:31,194 [WARNING] - No .json files found for prefix articles/washington_post_articles. Skipping.
+2025-11-18 02:18:31,194 [ERROR] - No .json files found in any source directory. Aborting.

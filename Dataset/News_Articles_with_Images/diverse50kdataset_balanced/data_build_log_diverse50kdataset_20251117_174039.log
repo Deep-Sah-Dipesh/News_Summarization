@@ -1,0 +1,84 @@
+2025-11-17 17:40:39,241 [INFO] - --- Starting Multimodal 50k Balanced Dataset Build ---
+2025-11-17 17:40:39,241 [INFO] - Source Dirs: ['C:\\Users\\admin\\Downloads\\articles\\articles\\bbc_1\\json', 'C:\\Users\\admin\\Downloads\\articles\\articles\\bbc_2\\json', 'C:\\Users\\admin\\Downloads\\articles\\articles\\guardian_articles\\guardian_json', 'C:\\Users\\admin\\Downloads\\articles\\articles\\usa_today_articles\\json', 'C:\\Users\\admin\\Downloads\\articles\\articles\\washington_post_articles\\json']
+2025-11-17 17:40:39,243 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\diverse50kdataset_balanced
+2025-11-17 17:40:39,243 [INFO] - Target Total Size: 50000
+2025-11-17 17:40:39,243 [INFO] - Loading EasyOCR model...
+2025-11-17 17:40:41,987 [INFO] - EasyOCR model loaded.
+2025-11-17 17:40:41,989 [INFO] - Scanning all source directories to get total file counts...
+2025-11-17 17:40:41,989 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\bbc_1\json
+2025-11-17 17:40:41,991 [WARNING] - Directory not found: C:\Users\admin\Downloads\articles\articles\bbc_1\json. Skipping.
+2025-11-17 17:40:41,991 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\bbc_2\json
+2025-11-17 17:40:41,991 [WARNING] - Directory not found: C:\Users\admin\Downloads\articles\articles\bbc_2\json. Skipping.
+2025-11-17 17:40:41,991 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json
+2025-11-17 17:40:44,284 [INFO] - Found 272748 files in C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json.
+2025-11-17 17:40:44,284 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\usa_today_articles\json
+2025-11-17 17:40:44,509 [INFO] - Found 44638 files in C:\Users\admin\Downloads\articles\articles\usa_today_articles\json.
+2025-11-17 17:40:44,509 [INFO] - Scanning directory: C:\Users\admin\Downloads\articles\articles\washington_post_articles\json
+2025-11-17 17:40:46,198 [INFO] - Found 185239 files in C:\Users\admin\Downloads\articles\articles\washington_post_articles\json.
+2025-11-17 17:40:46,198 [INFO] - Found 502625 total files across 3 sources.
+2025-11-17 17:40:46,203 [INFO] - Creating a balanced dataset of 50000 total samples.
+2025-11-17 17:40:46,203 [INFO] - Taking 27132 random samples from C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json (Ratio: 54.26%)
+2025-11-17 17:40:46,435 [INFO] - Taking 4440 random samples from C:\Users\admin\Downloads\articles\articles\usa_today_articles\json (Ratio: 8.88%)
+2025-11-17 17:40:46,465 [INFO] - Taking 18427 random samples from C:\Users\admin\Downloads\articles\articles\washington_post_articles\json (Ratio: 36.85%)
+2025-11-17 17:40:46,642 [INFO] - Total files to process after sampling: 49999
+2025-11-17 17:40:46,643 [INFO] - Starting processing loop...
+2025-11-17 17:40:47,725 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.wri.org_blog_2010_09_fact-sheet-policy-design-maximizing-us-wind-energy-jobs-200.json
+2025-11-17 17:40:49,611 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.truthdig.com_report_item_20090121_to_each_his_own_obama-200.json
+2025-11-17 17:40:51,710 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.edinburgh.gov.uk_galleries_gallery_24_james_gillespies_campus-200.json
+2025-11-17 17:40:53,738 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___usatoday30.usatoday.com_money_markets_2009-08-24-madoff-health_N.htm-200.json
+2025-11-17 17:40:55,477 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.theatlantic.com_magazine_archive_2013_04_for-whom-the-bell-tolls_309266_-200.json
+2025-11-17 17:40:56,467 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___ow.ly_i_aFnXq-200.json
+2025-11-17 17:40:56,774 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___tinyurl.com_3oh5xo-200.json
+2025-11-17 17:40:56,886 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.tomwfootball.com_2010_09_10_ligue-1-five-young-players-to-look-out-for_-200.json
+2025-11-17 17:40:57,526 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.huffingtonpost.com_2008_09_09_poll-madness-mccain-takes_n_125158.html-200.json
+2025-11-17 17:40:58,593 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___t.co_MJhvwbj-200.json
+2025-11-17 17:40:58,628 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.mobypicture.com_user_GdnEdinburgh_view_6219579-200.json
+2025-11-17 17:40:58,758 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___mouthandtrousers.blogspot.jp_2010_08_mind-your-language.html-200.json
+2025-11-17 17:41:00,367 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.grammarphobia.com_blog_2011_01_hopefully.html-200.json
+2025-11-17 17:41:01,487 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___ow.ly_i_3JKoh-200.json
+2025-11-17 17:41:01,553 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___thenewdaily.com.au_life_2015_01_15_the-people-you-should-be-following-on-twitter_-200.json
+2025-11-17 17:41:03,293 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.edinburghguide.com_story_edinburghcitycouncil_6495-edinburghcitycounciltolaunchnewwebsite-200.json
+2025-11-17 17:41:04,394 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.publicfinance.co.uk_news_2010_09_kerslake-takes-over-dclg-200.json
+2025-11-17 17:41:05,543 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.parliament.uk_business_committees_committees-a-z_commons-select_science-and-technology-committee_news_110125-report-published---uea_-200.json
+2025-11-17 17:41:05,591 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___twitpic.com_78rg4l-200.json
+2025-11-17 17:41:07,586 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.everybodytaste.com_cgi-sys_suspendedpage.cgi-200.json
+2025-11-17 17:41:08,068 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___webarchive.nationalarchives.gov.uk_20160105160709_http___www.ons.gov.uk_ons_infographics_what-is-life-like-for-an-older-person-in-the-uk-today_index.html-200.json
+2025-11-17 17:41:08,603 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.washingtonpost.com_wp-dyn_content_article_2009_05_22_AR2009052200430.html-200.json
+2025-11-17 17:41:10,237 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___twitpic.com_ddca51-200.json
+2025-11-17 17:41:10,363 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___tinyurl.com_bmwc52-200.json
+2025-11-17 17:41:11,001 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___t.co_oo1JFUPSbo-200.json
+2025-11-17 17:41:12,076 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.businessgreen.com_bg_news_1802448_defra-joins-whitehalls-carbon-reporting-drive-200.json
+2025-11-17 17:41:12,339 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___t.co_s3SZKxNgfK-200.json
+2025-11-17 17:41:13,003 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___ow.ly_i_7o0vX-200.json
+2025-11-17 17:41:14,446 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___twitpic.com_decsie-200.json
+2025-11-17 17:41:15,046 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___twitpic.com_3e1ef5-200.json
+2025-11-17 17:41:16,743 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___openlylocal.com_-200.json
+2025-11-17 17:41:16,783 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.100twt.com_-200.json
+2025-11-17 17:41:16,814 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.bbc.co.uk_news_10558740-200.json
+2025-11-17 17:41:18,031 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.mprnews.org_story_2009_10_27_flying-while-distracted-200.json
+2025-11-17 17:41:20,086 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.thewildernessdowntown.com_-200.json
+2025-11-17 17:41:20,383 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.journalismfestival.com_events_wikileaks_-200.json
+2025-11-17 17:41:21,073 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.campaignlive.co.uk_article_medium-year-2014-facebook__1325997-200.json
+2025-11-17 17:41:21,700 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.greentraveller.co.uk_trains-to-europe-200.json
+2025-11-17 17:41:22,137 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.ustream.tv_channel_ausocmedia-test-200.json
+2025-11-17 17:41:24,911 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___t.co_hjmpIYqOj7-200.json
+2025-11-17 17:41:24,959 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___trickorvote.org-200.json
+2025-11-17 17:41:26,903 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.dailywritingtips.com_in-search-of-a-4-dot-ellipsis_-200.json
+2025-11-17 17:41:27,144 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___sirhenrycecil.com_-200.json
+2025-11-17 17:41:27,276 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___stv.tv_news_scotland_162288-thousands-on-strike-in-second-day-of-action_-200.json
+2025-11-17 17:41:27,471 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.channel4.com_programmes_dispatches_episode-guide_series-106_episode-1-200.json
+2025-11-17 17:41:27,707 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___techcrunch.com_2011_02_12_the-guardians-wikileaks-book-is-this-generations-all-the-presidents-men_-200.json
+2025-11-17 17:41:29,005 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.socialtoo.com-200.json
+2025-11-17 17:41:29,831 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___warriorsmovie.co.uk_gangs-200.json
+2025-11-17 17:41:31,598 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.spd.org_2015_03_pub-50-medal-finalists-magazin.php-200.json
+2025-11-17 17:41:32,233 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.bbc.co.uk_news_world-europe-26570924-200.json
+2025-11-17 17:41:32,973 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___tinyurl.com_yd7k3n9-200.json
+2025-11-17 17:41:34,430 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.realclearpolitics.com_news_ap_politics_2008_Oct_01_polls__more_see_obama_as_helpful_on_economy.html-200.json
+2025-11-17 17:41:35,653 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.mobypicture.com_user_GdnEdinburgh_view_6867475-200.json
+2025-11-17 17:41:36,863 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___twitpic.com_b0vjli-200.json
+2025-11-17 17:41:38,998 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.mcfc.co.uk_News_Club-news_2011_September_Club-statement-2-200.json
+2025-11-17 17:41:40,446 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.manutd.com_en_News-And-Features_Football-News_2012_Aug_danny-welbeck-signs-new-four-year-contract.aspx-200.json
+2025-11-17 17:41:41,966 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.businesszone.co.uk_deep-dive_growth_live-blog-the-pitch-scotland-small-business-conference-200.json
+2025-11-17 17:41:42,711 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.bbc.co.uk_news_uk-politics-27531094-200.json
+2025-11-17 17:41:43,839 [WARNING] - Skipping corrupt/empty JSON: C:\Users\admin\Downloads\articles\articles\guardian_articles\guardian_json\http___www.spokes.org.uk_2010_08_spokes-summer-competition-2010_-200.json
+2025-11-17 17:41:44,117 [WARNING] - --- Process Interrupted by User ---

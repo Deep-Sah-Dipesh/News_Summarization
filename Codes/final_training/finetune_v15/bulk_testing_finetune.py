@@ -14,10 +14,10 @@ import logging_utils
 
 # --- Configuration ---
 DATA_PATH = [
-    "../../Dataset/final_cleaned_dataset_CNN.csv",
-    "../../Dataset/filtered_articles_CNN.csv"
+    "../../../Dataset/final_cleaned_dataset_CNN.csv",
+    "../../../Dataset/filtered_articles_CNN.csv"
 ]
-NUM_SAMPLES = 50 # Set to None to test all samples
+NUM_SAMPLES = 100 # Set to None to test all samples
 # ----------------------------------------------
 
 model = None

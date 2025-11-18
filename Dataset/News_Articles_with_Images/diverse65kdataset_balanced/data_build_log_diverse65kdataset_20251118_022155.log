@@ -1,0 +1,11 @@
+2025-11-18 02:21:55,164 [INFO] - --- Starting Multimodal 65000 Balanced Dataset Build (from Nested TARs) ---
+2025-11-18 02:21:55,164 [INFO] - Source TAR: C:\Users\admin\Downloads\articles.tar.gz
+2025-11-18 02:21:55,164 [INFO] - Scanning for nested archives matching: ['articles/bbc_1', 'articles/bbc_2', 'articles/guardian_articles', 'articles/usa_today_articles', 'articles/washington_post_articles']
+2025-11-18 02:21:55,164 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\diverse65kdataset_balanced
+2025-11-18 02:21:55,164 [INFO] - Target Total Size: 65000
+2025-11-18 02:21:55,164 [INFO] - Loading EasyOCR model...
+2025-11-18 02:21:57,414 [INFO] - EasyOCR model loaded successfully on GPU.
+2025-11-18 02:21:57,418 [INFO] - Opening main TAR archive to find nested archives...
+2025-11-18 02:22:10,964 [INFO] - Found 11 total members in root archive.
+2025-11-18 02:22:10,964 [ERROR] - No nested .tar.gz files found matching prefixes: ['articles/bbc_1', 'articles/bbc_2', 'articles/guardian_articles', 'articles/usa_today_articles', 'articles/washington_post_articles']
+2025-11-18 02:22:10,964 [ERROR] - Please check your TAR_SOURCE_DIRS configuration.

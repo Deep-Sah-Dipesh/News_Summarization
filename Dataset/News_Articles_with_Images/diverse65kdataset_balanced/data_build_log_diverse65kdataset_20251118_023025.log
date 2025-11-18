@@ -1,0 +1,24 @@
+2025-11-18 02:30:25,326 [INFO] - --- Starting Multimodal 65000 Balanced Dataset Build (from Nested TARs) ---
+2025-11-18 02:30:25,326 [INFO] - Source TAR: C:\Users\admin\Downloads\articles.tar.gz
+2025-11-18 02:30:25,326 [INFO] - Output Dir: H:\News_Summarization\Dataset\News_Articles_with_Images\diverse65kdataset_balanced
+2025-11-18 02:30:25,326 [INFO] - Target Total Size: 65000
+2025-11-18 02:30:25,326 [INFO] - Loading EasyOCR model...
+2025-11-18 02:30:27,367 [INFO] - EasyOCR model loaded successfully on GPU.
+2025-11-18 02:30:27,368 [INFO] - Opening main TAR archive to find nested archives...
+2025-11-18 02:30:41,164 [INFO] - Found 11 total members in root archive.
+2025-11-18 02:30:41,164 [INFO] - Found nested archive: ./articles/bbc_2.tar.gz
+2025-11-18 02:30:41,164 [INFO] - Found nested archive: ./articles/guardian_articles.tar.gz
+2025-11-18 02:30:41,164 [INFO] - Found nested archive: ./articles/washington_post_articles.tar.gz
+2025-11-18 02:30:41,164 [INFO] - Found nested archive: ./articles/usa_today_articles.tar.gz
+2025-11-18 02:30:41,164 [INFO] - Found nested archive: ./articles/bbc_1.tar.gz
+2025-11-18 02:30:41,164 [INFO] - Scanning all nested archives for .json files...
+2025-11-18 02:30:41,164 [INFO] - Scanning inside: ./articles/bbc_2.tar.gz
+2025-11-18 02:30:51,770 [INFO] - Found 160605 .json files in ./articles/bbc_2.tar.gz.
+2025-11-18 02:30:51,770 [INFO] - Scanning inside: ./articles/guardian_articles.tar.gz
+2025-11-18 02:32:02,356 [INFO] - Found 595530 .json files in ./articles/guardian_articles.tar.gz.
+2025-11-18 02:32:02,356 [INFO] - Scanning inside: ./articles/washington_post_articles.tar.gz
+2025-11-18 02:32:39,672 [INFO] - Found 185239 .json files in ./articles/washington_post_articles.tar.gz.
+2025-11-18 02:32:39,672 [INFO] - Scanning inside: ./articles/usa_today_articles.tar.gz
+2025-11-18 02:32:39,672 [ERROR] - CRITICAL ERROR: The file at C:\Users\admin\Downloads\articles.tar.gz is not a valid .tar.gz file.
+2025-11-18 02:32:39,672 [INFO] - Closing 3 in-memory archives...
+2025-11-18 02:32:39,674 [INFO] - Cleanup complete.
