@@ -1,0 +1,275 @@
+2025-11-18 20:08:11,408 [INFO] - root - --- Starting mBART-ViT v16 Training ---
+2025-11-18 20:08:11,408 [INFO] - root - Loading tokenizer from: ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model
+2025-11-18 20:08:11,411 [INFO] - transformers.tokenization_utils_base - loading file sentencepiece.bpe.model
+2025-11-18 20:08:11,411 [INFO] - transformers.tokenization_utils_base - loading file tokenizer.json
+2025-11-18 20:08:11,411 [INFO] - transformers.tokenization_utils_base - loading file added_tokens.json
+2025-11-18 20:08:11,411 [INFO] - transformers.tokenization_utils_base - loading file special_tokens_map.json
+2025-11-18 20:08:11,411 [INFO] - transformers.tokenization_utils_base - loading file tokenizer_config.json
+2025-11-18 20:08:11,411 [INFO] - transformers.tokenization_utils_base - loading file chat_template.jinja
+2025-11-18 20:08:12,010 [INFO] - root - Loading feature extractor from: google/vit-base-patch16-224-in21k
+2025-11-18 20:08:13,181 [INFO] - transformers.image_processing_base - loading configuration file preprocessor_config.json from cache at C:\Users\admin\.cache\huggingface\hub\models--google--vit-base-patch16-224-in21k\snapshots\b4569560a39a0f1af58e3ddaf17facf20ab919b0\preprocessor_config.json
+2025-11-18 20:08:13,181 [INFO] - transformers.image_processing_utils - size should be a dictionary on of the following set of keys: ({'height', 'width'}, {'shortest_edge'}, {'shortest_edge', 'longest_edge'}, {'longest_edge'}, {'max_width', 'max_height'}), got 224. Converted to {'height': 224, 'width': 224}.
+2025-11-18 20:08:13,181 [INFO] - transformers.image_processing_base - Image processor ViTFeatureExtractor {
+  "do_convert_rgb": null,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "ViTFeatureExtractor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resample": 2,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "height": 224,
+    "width": 224
+  }
+}
+
+2025-11-18 20:08:13,181 [INFO] - root - Loading training data from: H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_1\multimodal_dataset_set1.parquet
+2025-11-18 20:08:13,581 [INFO] - root - Training data loaded: 49951 samples
+2025-11-18 20:08:13,581 [INFO] - root - Loading evaluation data from: H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_2\multimodal_dataset_set2.parquet
+2025-11-18 20:08:13,971 [INFO] - root - Using a random subset of 5000 samples.
+2025-11-18 20:08:13,984 [INFO] - root - Evaluation data loaded: 5000 samples
+2025-11-18 20:08:13,984 [INFO] - root - Loading custom v16 multimodal model architecture...
+2025-11-18 20:08:13,984 [INFO] - transformers.configuration_utils - loading configuration file ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model\config.json
+2025-11-18 20:08:13,984 [INFO] - transformers.configuration_utils - Model config MBartConfig {
+  "_num_labels": 3,
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "add_bias_logits": false,
+  "add_final_layer_norm": true,
+  "architectures": [
+    "MBartForConditionalGeneration"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 0,
+  "classif_dropout": 0.0,
+  "classifier_dropout": 0.0,
+  "d_model": 1024,
+  "decoder_attention_heads": 16,
+  "decoder_ffn_dim": 4096,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 12,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "dtype": "float32",
+  "early_stopping": null,
+  "encoder_attention_heads": 16,
+  "encoder_ffn_dim": 4096,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 12,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "max_length": null,
+  "max_position_embeddings": 1024,
+  "model_type": "mbart",
+  "normalize_before": true,
+  "normalize_embedding": true,
+  "num_beams": null,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "scale_embedding": true,
+  "static_position_embeddings": false,
+  "tokenizer_class": "MBart50Tokenizer",
+  "transformers_version": "4.57.0",
+  "use_cache": true,
+  "vocab_size": 250054
+}
+
+2025-11-18 20:08:13,984 [INFO] - transformers.modeling_utils - loading weights file ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model\model.safetensors
+2025-11-18 20:08:13,991 [INFO] - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "pad_token_id": 1
+}
+
+2025-11-18 20:08:14,272 [INFO] - transformers.generation.configuration_utils - loading configuration file ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model\generation_config.json
+2025-11-18 20:08:14,272 [INFO] - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "early_stopping": true,
+  "eos_token_id": [
+    2
+  ],
+  "forced_eos_token_id": 2,
+  "max_length": 200,
+  "num_beams": 5,
+  "pad_token_id": 1
+}
+
+2025-11-18 20:08:14,272 [INFO] - transformers.dynamic_module_utils - Could not locate the custom_generate/generate.py inside ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model.
+2025-11-18 20:08:14,277 [INFO] - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "pad_token_id": 1
+}
+
+2025-11-18 20:08:28,969 [INFO] - transformers.configuration_utils - loading configuration file ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model\config.json
+2025-11-18 20:08:28,971 [INFO] - transformers.configuration_utils - Model config MBartConfig {
+  "_num_labels": 3,
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "add_bias_logits": false,
+  "add_final_layer_norm": true,
+  "architectures": [
+    "MBartForConditionalGeneration"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 0,
+  "classif_dropout": 0.0,
+  "classifier_dropout": 0.0,
+  "d_model": 1024,
+  "decoder_attention_heads": 16,
+  "decoder_ffn_dim": 4096,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 12,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "dtype": "float32",
+  "early_stopping": null,
+  "encoder_attention_heads": 16,
+  "encoder_ffn_dim": 4096,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 12,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "max_length": null,
+  "max_position_embeddings": 1024,
+  "model_type": "mbart",
+  "normalize_before": true,
+  "normalize_embedding": true,
+  "num_beams": null,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "scale_embedding": true,
+  "static_position_embeddings": false,
+  "tokenizer_class": "MBart50Tokenizer",
+  "transformers_version": "4.57.0",
+  "use_cache": true,
+  "vocab_size": 250054
+}
+
+2025-11-18 20:08:28,971 [INFO] - transformers.modeling_utils - loading weights file ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model\model.safetensors
+2025-11-18 20:08:28,971 [INFO] - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "pad_token_id": 1
+}
+
+2025-11-18 20:08:29,328 [INFO] - transformers.generation.configuration_utils - loading configuration file ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model\generation_config.json
+2025-11-18 20:08:29,328 [INFO] - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "early_stopping": true,
+  "eos_token_id": [
+    2
+  ],
+  "forced_eos_token_id": 2,
+  "max_length": 200,
+  "num_beams": 5,
+  "pad_token_id": 1
+}
+
+2025-11-18 20:08:29,331 [INFO] - transformers.dynamic_module_utils - Could not locate the custom_generate/generate.py inside ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model.
+2025-11-18 20:08:30,172 [INFO] - transformers.configuration_utils - loading configuration file config.json from cache at C:\Users\admin\.cache\huggingface\hub\models--google--vit-base-patch16-224-in21k\snapshots\b4569560a39a0f1af58e3ddaf17facf20ab919b0\config.json
+2025-11-18 20:08:30,172 [INFO] - transformers.configuration_utils - Model config ViTConfig {
+  "architectures": [
+    "ViTModel"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "model_type": "vit",
+  "num_attention_heads": 12,
+  "num_channels": 3,
+  "num_hidden_layers": 12,
+  "patch_size": 16,
+  "pooler_act": "tanh",
+  "pooler_output_size": 768,
+  "qkv_bias": true,
+  "transformers_version": "4.57.0"
+}
+
+2025-11-18 20:08:30,172 [INFO] - transformers.modeling_utils - loading weights file model.safetensors from cache at C:\Users\admin\.cache\huggingface\hub\models--google--vit-base-patch16-224-in21k\snapshots\b4569560a39a0f1af58e3ddaf17facf20ab919b0\model.safetensors
+2025-11-18 20:08:30,521 [INFO] - root - Freezing mBART encoder and ViT parameters...
+2025-11-18 20:08:30,521 [INFO] - transformers.generation.configuration_utils - loading configuration file ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model\generation_config.json
+2025-11-18 20:08:30,521 [INFO] - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "early_stopping": true,
+  "eos_token_id": [
+    2
+  ],
+  "forced_eos_token_id": 2,
+  "max_length": 200,
+  "num_beams": 5,
+  "pad_token_id": 1
+}
+
+2025-11-18 20:08:30,521 [INFO] - root - Model loaded successfully.
+2025-11-18 20:08:30,521 [INFO] - root - Configuring training arguments...
+2025-11-18 20:08:30,521 [INFO] - transformers.training_args - PyTorch: setting up devices
+2025-11-18 20:08:32,713 [INFO] - transformers.trainer - Using auto half precision backend
+2025-11-18 20:08:32,713 [INFO] - root - --- Performing Pre-Training Sanity Check ---
+2025-11-18 20:08:33,171 [INFO] - root - Sanity Check Passed: Model forward pass successful.
+2025-11-18 20:08:33,171 [INFO] - root - --- v16 Training started for 3 epochs ---
+2025-11-18 20:08:33,610 [INFO] - transformers.trainer - ***** Running training *****
+2025-11-18 20:08:33,616 [INFO] - transformers.trainer -   Num examples = 49,951
+2025-11-18 20:08:33,616 [INFO] - transformers.trainer -   Num Epochs = 3
+2025-11-18 20:08:33,616 [INFO] - transformers.trainer -   Instantaneous batch size per device = 4
+2025-11-18 20:08:33,616 [INFO] - transformers.trainer -   Total train batch size (w. parallel, distributed & accumulation) = 32
+2025-11-18 20:08:33,616 [INFO] - transformers.trainer -   Gradient Accumulation steps = 8
+2025-11-18 20:08:33,616 [INFO] - transformers.trainer -   Total optimization steps = 4,683
+2025-11-18 20:08:33,616 [INFO] - transformers.trainer -   Number of trainable parameters = 203,402,240
+2025-11-18 21:26:50,796 [INFO] - transformers.trainer - 
+***** Running Evaluation *****
+2025-11-18 21:26:50,796 [INFO] - transformers.trainer -   Num examples = 5000
+2025-11-18 21:26:50,796 [INFO] - transformers.trainer -   Batch size = 4

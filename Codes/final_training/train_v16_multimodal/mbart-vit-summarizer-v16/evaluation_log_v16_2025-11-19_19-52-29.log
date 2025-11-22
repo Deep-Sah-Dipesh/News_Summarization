@@ -1,0 +1,21 @@
+2025-11-19 19:52:29,462 [INFO] - root - --- Starting Post-Training v16 Evaluation & Save Script ---
+2025-11-19 19:52:29,462 [INFO] - root - Using 'eval_bleurt_f1' as the key metric.
+2025-11-19 19:52:29,462 [INFO] - root - Found 3 checkpoints to evaluate.
+2025-11-19 19:52:29,479 [INFO] - root - *** New best checkpoint: checkpoint-1561 (eval_bleurt_f1: 0.5552) ***
+2025-11-19 19:52:29,491 [INFO] - root - *** New best checkpoint: checkpoint-3122 (eval_bleurt_f1: 0.58) ***
+2025-11-19 19:52:29,503 [INFO] - root - *** New best checkpoint: checkpoint-4683 (eval_bleurt_f1: 0.6113) ***
+2025-11-19 19:52:29,503 [INFO] - root - 
+================================================================================
+                      --- FINAL v16 EVALUATION SUMMARY ---                      
+
+2025-11-19 19:52:29,503 [INFO] - root - Checkpoint           | Step       | Loss       | eval_bleurt_f1 | RougeL    
+2025-11-19 19:52:29,503 [INFO] - root - ----------------------------------------------------------------------------
+2025-11-19 19:52:29,503 [INFO] - root - checkpoint-1561      | 1561       | 0.2566     | 0.5552       | 0.5813    
+2025-11-19 19:52:29,503 [INFO] - root - checkpoint-3122      | 3122       | 0.2462     | 0.5800       | 0.5932    
+2025-11-19 19:52:29,506 [INFO] - root - checkpoint-4683      | 4683       | 0.2477     | 0.6113       | 0.6179    
+2025-11-19 19:52:29,506 [INFO] - root - ================================================================================
+
+2025-11-19 19:52:29,506 [INFO] - root - Best model identified: mbart-vit-summarizer-v16\checkpoint-4683
+2025-11-19 19:52:29,506 [WARNING] - root - Removing existing directory: mbart-vit-summarizer-v16\final_model
+2025-11-19 19:52:29,548 [INFO] - root - Copying mbart-vit-summarizer-v16\checkpoint-4683 to mbart-vit-summarizer-v16\final_model...
+2025-11-19 19:53:22,821 [INFO] - root - --- Best v16 model saved successfully! ---

@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # -----------------
 
 # --- Configuration ---
-PARQUET_PATH = r"H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news_processed\multimodal_dataset_generation_20251114.parquet"
+PARQUET_PATH = r"H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_1\multimodal_dataset_set1.parquet"
 VIT_MODEL_NAME = "google/vit-base-patch16-224-in21k"
 MBART_MODEL_NAME = "facebook/mbart-large-50"
 

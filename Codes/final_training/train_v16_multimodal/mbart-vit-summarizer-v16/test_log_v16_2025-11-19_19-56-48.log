@@ -1,0 +1,209 @@
+2025-11-19 19:56:48,187 [INFO] - root - --- Starting mBART-ViT v16 FINAL TEST ---
+2025-11-19 19:56:48,187 [INFO] - root - Loading final v16 model from: mbart-vit-summarizer-v16\final_model
+2025-11-19 19:56:48,193 [INFO] - transformers.tokenization_utils_base - loading file sentencepiece.bpe.model
+2025-11-19 19:56:48,193 [INFO] - transformers.tokenization_utils_base - loading file tokenizer.json
+2025-11-19 19:56:48,195 [INFO] - transformers.tokenization_utils_base - loading file added_tokens.json
+2025-11-19 19:56:48,195 [INFO] - transformers.tokenization_utils_base - loading file special_tokens_map.json
+2025-11-19 19:56:48,196 [INFO] - transformers.tokenization_utils_base - loading file tokenizer_config.json
+2025-11-19 19:56:48,196 [INFO] - transformers.tokenization_utils_base - loading file chat_template.jinja
+2025-11-19 19:56:48,932 [WARNING] - root - Could not load local image processor. Using default.
+2025-11-19 19:56:50,242 [INFO] - transformers.image_processing_base - loading configuration file preprocessor_config.json from cache at C:\Users\admin\.cache\huggingface\hub\models--google--vit-base-patch16-224-in21k\snapshots\b4569560a39a0f1af58e3ddaf17facf20ab919b0\preprocessor_config.json
+2025-11-19 19:56:50,242 [INFO] - transformers.image_processing_utils - size should be a dictionary on of the following set of keys: ({'width', 'height'}, {'shortest_edge'}, {'longest_edge', 'shortest_edge'}, {'longest_edge'}, {'max_height', 'max_width'}), got 224. Converted to {'height': 224, 'width': 224}.
+2025-11-19 19:56:50,246 [INFO] - transformers.image_processing_base - Image processor ViTImageProcessor {
+  "do_convert_rgb": null,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "ViTImageProcessor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resample": 2,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "height": 224,
+    "width": 224
+  }
+}
+
+2025-11-19 19:56:50,247 [INFO] - transformers.configuration_utils - loading configuration file mbart-vit-summarizer-v16\final_model\config.json
+2025-11-19 19:56:50,247 [INFO] - transformers.configuration_utils - Model config MBartConfig {
+  "_num_labels": 3,
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "add_bias_logits": false,
+  "add_final_layer_norm": true,
+  "architectures": [
+    "MultimodalSummarizer"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 0,
+  "classif_dropout": 0.0,
+  "classifier_dropout": 0.0,
+  "d_model": 1024,
+  "decoder_attention_heads": 16,
+  "decoder_ffn_dim": 4096,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 12,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "dtype": "float32",
+  "early_stopping": null,
+  "encoder_attention_heads": 16,
+  "encoder_ffn_dim": 4096,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 12,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "max_length": null,
+  "max_position_embeddings": 1024,
+  "model_type": "mbart",
+  "normalize_before": true,
+  "normalize_embedding": true,
+  "num_beams": null,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "scale_embedding": true,
+  "static_position_embeddings": false,
+  "tokenizer_class": "MBart50Tokenizer",
+  "transformers_version": "4.57.0",
+  "use_cache": true,
+  "vit_config": {
+    "_name_or_path": "google/vit-base-patch16-224-in21k",
+    "add_cross_attention": false,
+    "architectures": [
+      "ViTModel"
+    ],
+    "attention_probs_dropout_prob": 0.0,
+    "bad_words_ids": null,
+    "begin_suppress_tokens": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "dtype": "float32",
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "encoder_stride": 16,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.0,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "image_size": 224,
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "vit",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_channels": 3,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "patch_size": 16,
+    "pooler_act": "tanh",
+    "pooler_output_size": 768,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "qkv_bias": true,
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "suppress_tokens": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tf_legacy_loss": false,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torchscript": false,
+    "typical_p": 1.0,
+    "use_bfloat16": false
+  },
+  "vocab_size": 250054
+}
+
+2025-11-19 19:56:50,252 [INFO] - transformers.modeling_utils - loading weights file mbart-vit-summarizer-v16\final_model\model.safetensors
+2025-11-19 19:56:50,258 [INFO] - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "pad_token_id": 1
+}
+
+2025-11-19 19:56:50,686 [INFO] - transformers.configuration_utils - loading configuration file config.json from cache at C:\Users\admin\.cache\huggingface\hub\models--google--vit-base-patch16-224-in21k\snapshots\b4569560a39a0f1af58e3ddaf17facf20ab919b0\config.json
+2025-11-19 19:56:50,687 [INFO] - transformers.configuration_utils - Model config ViTConfig {
+  "architectures": [
+    "ViTModel"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "model_type": "vit",
+  "num_attention_heads": 12,
+  "num_channels": 3,
+  "num_hidden_layers": 12,
+  "patch_size": 16,
+  "pooler_act": "tanh",
+  "pooler_output_size": 768,
+  "qkv_bias": true,
+  "transformers_version": "4.57.0"
+}
+

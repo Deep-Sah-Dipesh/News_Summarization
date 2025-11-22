@@ -1,0 +1,41 @@
+2025-11-18 16:42:51,704 [INFO] - root - --- Starting mBART-ViT v16 Training ---
+2025-11-18 16:42:51,704 [INFO] - root - Loading tokenizer from: ../finetune_v15/mbart-large-50-cnn-summarizer-v15_fine_tuned/final_model
+2025-11-18 16:42:51,722 [INFO] - transformers.tokenization_utils_base - loading file sentencepiece.bpe.model
+2025-11-18 16:42:51,723 [INFO] - transformers.tokenization_utils_base - loading file tokenizer.json
+2025-11-18 16:42:51,723 [INFO] - transformers.tokenization_utils_base - loading file added_tokens.json
+2025-11-18 16:42:51,723 [INFO] - transformers.tokenization_utils_base - loading file special_tokens_map.json
+2025-11-18 16:42:51,724 [INFO] - transformers.tokenization_utils_base - loading file tokenizer_config.json
+2025-11-18 16:42:51,724 [INFO] - transformers.tokenization_utils_base - loading file chat_template.jinja
+2025-11-18 16:42:52,437 [INFO] - root - Loading feature extractor from: google/vit-base-patch16-224-in21k
+2025-11-18 16:42:53,524 [INFO] - transformers.image_processing_base - loading configuration file preprocessor_config.json from cache at C:\Users\admin\.cache\huggingface\hub\models--google--vit-base-patch16-224-in21k\snapshots\b4569560a39a0f1af58e3ddaf17facf20ab919b0\preprocessor_config.json
+2025-11-18 16:42:53,529 [INFO] - transformers.image_processing_utils - size should be a dictionary on of the following set of keys: ({'width', 'height'}, {'shortest_edge'}, {'shortest_edge', 'longest_edge'}, {'longest_edge'}, {'max_height', 'max_width'}), got 224. Converted to {'height': 224, 'width': 224}.
+2025-11-18 16:42:53,529 [INFO] - transformers.image_processing_base - Image processor ViTFeatureExtractor {
+  "do_convert_rgb": null,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "ViTFeatureExtractor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resample": 2,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "height": 224,
+    "width": 224
+  }
+}
+
+2025-11-18 16:42:53,529 [INFO] - root - Loading training data from: H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_1\multimodal_dataset_set1.parquet
+2025-11-18 16:42:54,056 [INFO] - root - Training data loaded: 49951 samples
+2025-11-18 16:42:54,056 [INFO] - root - Loading evaluation data from: H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_2\multimodal_dataset_set2.parquet
+2025-11-18 16:42:54,538 [INFO] - root - Using a random subset of 5000 samples.
+2025-11-18 16:42:54,556 [INFO] - root - Evaluation data loaded: 5000 samples
+2025-11-18 16:42:54,556 [INFO] - root - Loading custom v16 multimodal model architecture...

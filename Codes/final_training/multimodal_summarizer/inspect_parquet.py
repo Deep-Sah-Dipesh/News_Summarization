@@ -10,7 +10,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # --- Configuration ---
 # This is the file you just created
-FILE_TO_INSPECT = r"H:\News_Summarization\Dataset\News_Articles_with_Images\bbc2news_processed\multimodal_dataset_generation_20251114.parquet"
+FILE_TO_INSPECT = r"H:\News_Summarization\Dataset\News_Articles_with_Images\balanced_50k_dataset_sets\set_1\multimodal_dataset_set1.parquet"
 # --- End Configuration ---
 
 def setup_logging():

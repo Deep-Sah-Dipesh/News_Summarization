@@ -11,6 +11,8 @@
 *.pth
 # Ignore model files
 *.bin
+*.pt
+*.safetensors
 
 # Ignore dataset image files
 *.jpg
